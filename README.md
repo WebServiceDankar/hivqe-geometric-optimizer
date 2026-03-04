@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Logo_Unifei.svg/2560px-Logo_Unifei.svg.png" width="180" alt="UNIFEI Logo">
+  <img src="./docs/logo_projeto.png" width="250" alt="UNIFEI Logo">
   
   <br><br>
   
