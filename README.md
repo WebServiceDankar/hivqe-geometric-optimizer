@@ -64,6 +64,19 @@ Atualmente, a execução do algoritmo VQE consome tempos impraticáveis à medid
 | **Linguagem Base** | `Python 3.10+` | Construção lógica do modelo VQE e orquestração. |
 | **Cálculo de Otimização** | `SciPy` / `PyTorch` | Otimizadores matemáticos clássicos acoplados aos gradientes quânticos. |
 
+---
+
+## 🔬 Resultados e Testes em Hardware Real (IBM)
+
+Como prova de conceito primária, realizamos um benchmarking agressivo submetendo o modelo Ouroboros à mitigação **TRE** no backend físico da **IBM (ibm_torino)**. Atingimos a energia de Ground State de maneira precisa dentro de apenas 50 iterações do SciPy.
+
+<div align="center">
+  <img src="./results/maratona_ouroboros_ibm.png" width="800" alt="Gráfico de convergência na IBM">
+  <p><i>Fig 1. Maratona de 50 Epochs na QPU (IBM Torino) atingindo o Ground State de -5.609.</i></p>
+</div>
+
+---
+
 ## 📁 Estrutura de Diretórios
 
 ```text
