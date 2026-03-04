@@ -26,6 +26,16 @@
 
 ---
 
+## 📖 Sobre o Projeto (About)
+
+Bem-vindo ao repositório oficial da pesquisa **HiVQE - Otimização Geométrica**. 
+
+Este projeto nasce da intersecção entre a **Física Quântica Teórica** e a **Ciência de Dados Aplicada**. Nosso foco é resolver um dos maiores gargalos práticos na era atual dos computadores quânticos (NISQ): a lentidão e o alto custo computacional na convergência de algoritmos variacionais (VQE) utilizados para simular moléculas e materiais complexos.
+
+Ao substituir abordagens de "força bruta" (ansatz linear e chutes aleatórios) por elementos geométricos elegantes fornecidos pela própria natureza — como a proporção da **Razão Áurea (Phi)** para distribuição inicial e a inquebrável estrutura topológica dos **Anéis de Borromeo** para emaranhamento de qubits — nós visamos criar um código mais rápido, mais barato de executar na IBM, e fundamentalmente mais eficiente.
+
+---
+
 ## 📝 Resumo do Projeto
 
 Este projeto de pesquisa propõe uma abordagem inovadora para resolver o problema de lentidão na convergência e alta demanda de recursos do algoritmo **HiVQE** (*Hardware-efficient Variational Quantum Eigensolver*), o atual estado da arte em computação quântica para simulação de moléculas.
