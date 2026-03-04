@@ -1,8 +1,12 @@
-Otimização Topológica de VQE via Razão Áurea e Anéis de Borromeo
-<img width="120" height="20" alt="image" src="https://github.com/user-attachments/assets/82824b8f-1ecf-41a6-889e-d6f3c214d678" />
+# Otimização Topológica de VQE via Razão Áurea e Anéis de Borromeo
 
+![Status](https://img.shields.io/badge/Status-Projeto_Inicial-blue.svg)
+![Linguagem](https://img.shields.io/badge/Linguagem-Python_3.x-yellow.svg)
+![Framework](https://img.shields.io/badge/Framework-NVIDIA_CUDA--Q-green.svg)
 
-Autor:Daniel A. Palma Orientador/Coordenador: Prof. Dr. Matheus BrendonInstituição: UNIFEI - Curso de Ciências de Dados Aplicada
+**Autor:** Daniel A. Palma  
+**Orientador/Coordenador:** Prof. Dr. Matheus Brendon  
+**Instituição:** UNIFEI - Curso de Ciências de Dados Aplicada
 
 📝 Resumo do Projeto
 Este projeto de pesquisa propõe uma abordagem inovadora para resolver o problema de lentidão na convergência do algoritmo HiVQE (Hardware-efficient Variational Quantum Eigensolver), o atual estado da arte em computação quântica.
@@ -40,5 +44,13 @@ Linguagem: Python 3.x.
 ├── docs/ # Artigos, relatórios e slides acadêmicos
 ├── benchmarks/ # Comparação entre HiVQE tradicional vs. Modelo Proposto
 └── README.md # Este arquivo
+
+---
+
+## 📚 Referências Bibliográficas
+
+1. [Inserir referência principal sobre HiVQE]
+2. [Inserir referência sobre Portas de Clifford]
+3. [Inserir referência sobre Proporção Áurea em Otimização]
 
 
