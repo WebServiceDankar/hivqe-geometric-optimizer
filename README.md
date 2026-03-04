@@ -1,5 +1,6 @@
 Otimização Topológica de VQE via Razão Áurea e Anéis de Borromeo
-StatusLinguagemFramework
+<img width="120" height="20" alt="image" src="https://github.com/user-attachments/assets/82824b8f-1ecf-41a6-889e-d6f3c214d678" />
+
 
 Autor:Daniel A. Palma Orientador/Coordenador: Prof. Dr. Matheus BrendonInstituição: UNIFEI - Curso de Ciências de Dados Aplicada
 
