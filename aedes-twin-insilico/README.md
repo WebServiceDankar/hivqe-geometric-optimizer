@@ -6,8 +6,8 @@ Um projeto de Ciência de Dados Aplicada focando em processamento de Grafos Neur
 ## 🎯 O Desafio
 Testar repelentes e atrativos biológicos in vivo é caro e lento. Este projeto aplica a filosofia de desenvolvimento contínuo para construir um simulador *in silico*. Utilizando dados de conectomas abertos (iniciando com a *Drosophila* via FlyWire), mapeamos a rede neural do inseto em matrizes de adjacência matemáticas e simulamos sua resposta a estímulos virtuais (CO2 e Calor) usando Python e SNNs.
 
-## 🛠 Metodologia de Desenvolvimento (Akita Way)
-Este repositório não aceita "vibe coding" gerado puramente por IA de forma randômica. Operamos sob regras estritas:
+## 🛠 Metodologias Rigorosas e Engenharia de Software
+Este repositório opera sob regras estritas de Engenharia de Software e boas práticas:
 1. **Design First:** A arquitetura multisserviço foi desenhada antes da primeira linha de código (veja `CLAUDE.md`).
 2. **TDD como Fundação:** Toda conversão de grafos e simulação de neurônios é coberta por `pytest` antes da implementação real.
 3. **Contratos de Dados Rígidos:** Comunicação entre o simulador do cérebro e o ambiente virtual usa esquemas Pydantic estritos para evitar falhas de tipagem.
@@ -45,9 +45,9 @@ Acesse o Dashboard interativo via http://localhost:8501.
 
 ### Como você (O Humano) deve operar a IA a partir daqui:
 
-**Exemplo de fluxo prático seguindo o "Akita Way":**
+**Exemplo de fluxo prático guiado por testes (TDD):**
 
-Você não vai dizer para a IA: *"Crie o simulador do cérebro da mosca pra mim"*. (Isso é Vibe Coding).
+Você não vai dizer para a IA: *"Crie o simulador do cérebro da mosca pra mim"*. (Isso viola o desenvolvimento estruturado e a metodologia rigorosa adotada).
 
 Você vai abrir o terminal, criar o repositório, colocar o `CLAUDE.md` e dar o seguinte prompt para a IA (como o Claude ou ChatGPT):
 

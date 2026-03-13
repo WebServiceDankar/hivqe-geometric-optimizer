@@ -1,6 +1,6 @@
 # AedesTwin In-Silico: System Specification & AI Guidelines
 
-## 1. Princípios de Desenvolvimento (Anti-Vibe Coding)
+## 1. Princípios de Desenvolvimento (Engenharia Rigorosa)
 Você atuará como um Engenheiro de Software Sênior. Siga estas regras rigorosamente:
 - **TDD Exigido:** NUNCA sugira código de implementação sem antes escrever os testes (`pytest`). Se eu pedir uma feature, escreva o teste que falha primeiro.
 - **Sem Alucinações de Código:** Se você não tiver certeza sobre uma API biológica (ex: formato de dados do FlyWire/NeuroMorpho), PARE e me peça os dados estruturados.

@@ -31,7 +31,7 @@ Este repositório foi estruturado como um **Monorepo** para agregar múltiplos p
 Abaixo estão listados os projetos atuais abrigados neste repositório. Clique no nome do projeto para acessar os seus respectivos códigos, documentações e instruções.
 
 ### 1. [HiVQE - Otimização Geométrica](./projeto-hivqe/)
-Pesquisa na intersecção entre Física Quântica Teórica e Ciência de Dados Aplicada. O projeto visa acelerar a convergência de simuladores moleculares no VQE substituindo os emaranhamentos de força bruta por topologias complexas fornecidas pela própria matemática da natureza (Ansatz em formato de Anéis de Borromeo e Razão Áurea).
+Pesquisa na intersecção entre Física Quântica Teórica e Ciência de Dados Aplicada. O projeto visa acelerar a convergência de simuladores moleculares no VQE substituindo abordagens de força bruta por topologias geométricas eficientes (inspiradas em Anéis de Borromeo e Razão Áurea) para otimizar a convergência de Hamiltonianos moleculares em dispositivos NISQ.
 - **Status:** Em Desenvolvimento 🚜
 - **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, SciPy
 
@@ -40,9 +40,14 @@ Pesquisa focada na fronteira da visão computacional e neurociência. O projeto 
 - **Status:** Estruturação Inicial / Levantamento de Datasets (NSD) 🧠
 - **Tecnologias:** Python, PyTorch, NiLearn, API Diffusers (HuggingFace), Scikit-learn
 
-### 3. [AedesTwin In-Silico](./aedes-twin-insilico/)
+### 3. [Ouroboros - Criptoanálise Quântica (SHA-256)](./ouroboros-crypto-analysis/)
+Sistema híbrido quantum-clássico desenhado para explorar o espaço de *pre-images* em funções hash seguras (SHA-256). A abordagem utiliza circuitos quânticos customizados integrados a um motor de mutação clássico para reduzir exponencialmente o espaço de busca, com testes e mitigação de erros validados na QPU IBM Torino.
+- **Status:** Validação de Pre-images / Benchmark no IBM Torino 🔐
+- **Tecnologias:** Python, Qiskit, IBM Quantum Runtime, Cryptanalysis
+
+### 4. [AedesTwin In-Silico](./aedes-twin-insilico/)
 Digital Twin de conectomas de insetos para erradicação de vetores da Dengue. Um projeto de Ciência de Dados Aplicada focando em processamento de Grafos Neurais e Spiking Neural Networks (SNN).
-- **Status:** Arquitetura Estrutural baseada em Anti-Vibe Coding e TDD 🦟
+- **Status:** Arquitetura Estrutural baseada em Metodologias Rigorosas e TDD (Test-Driven Development) 🦟
 - **Tecnologias:** Python, Brian2/NEST, NetworkX, FastAPI, Pytest
 
 ---
