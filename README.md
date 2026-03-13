@@ -1,8 +1,28 @@
-# Pesquisas e Projetos UNIFEI - Ciência de Dados Aplicada
+<div align="center">
+  <img src="./docs/logo_projeto.png" width="250" alt="UNIFEI Logo">
+  
+  <br><br>
+  
+  <h1><b>Pesquisas e Projetos UNIFEI<br>Ciência de Dados Aplicada</b></h1>
+  
+  <p>
+    <b>Universidade Federal de Itajubá (UNIFEI)</b><br>
+    <i>Repositório Oficial de Pesquisas (Monorepo) — Pesquisador: Daniel A. Palma</i>
+  </p>
 
-Bem-vindo ao repositório unificado de pesquisas e projetos de Daniel A. Palma, associados à Universidade Federal de Itajubá (UNIFEI) na área de Ciência de Dados Aplicada.
+  <div>
+    <img src="https://img.shields.io/badge/Status-Monorepo_Ativo-004d99?style=for-the-badge&logo=github" alt="Status">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/NVIDIA_CUDA--Q-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA-Q">
+    <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=for-the-badge" alt="License">
+  </div>
+</div>
 
-Este repositório foi estruturado como um **Monorepo** para agregar múltiplos projetos em um único lugar, mantendo a organização, o histórico do Git e a facilidade de navegação.
+---
+
+Bem-vindo ao repositório unificado de pesquisas e projetos acadêmicos associados à Universidade Federal de Itajubá (UNIFEI) na área de Ciência de Dados Aplicada.
+
+Este repositório foi estruturado como um **Monorepo** para agregar múltiplos projetos em um único lugar, mantendo a organização da sua jornada, o histórico do Git e a facilidade de navegação com a estética original.
 
 ---
 
