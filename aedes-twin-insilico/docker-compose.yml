@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  brain-simulator:
+    build: apps/brain-simulator
+    ports:
+      - "8000:8000"
+  virtual-environment:
+    build: apps/virtual-environment
+    ports:
+      - "8001:8001"
+  data-dashboard:
+    build: apps/data-dashboard
+    ports:
+      - "8501:8501"

@@ -40,6 +40,11 @@ Pesquisa focada na fronteira da visão computacional e neurociência. O projeto 
 - **Status:** Estruturação Inicial / Levantamento de Datasets (NSD) 🧠
 - **Tecnologias:** Python, PyTorch, NiLearn, API Diffusers (HuggingFace), Scikit-learn
 
+### 3. [AedesTwin In-Silico](./aedes-twin-insilico/)
+Digital Twin de conectomas de insetos para erradicação de vetores da Dengue. Um projeto de Ciência de Dados Aplicada focando em processamento de Grafos Neurais e Spiking Neural Networks (SNN).
+- **Status:** Arquitetura Estrutural baseada em Anti-Vibe Coding e TDD 🦟
+- **Tecnologias:** Python, Brian2/NEST, NetworkX, FastAPI, Pytest
+
 ---
 
 <div align="center">
