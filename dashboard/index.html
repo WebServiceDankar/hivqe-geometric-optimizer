@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HiVQE — Pipeline Híbrido Quantum-Clássico</title>
+<meta name="description" content="Dashboard de telemetria em tempo real para otimização VQE com Borromean Rings e Regressão Linear."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* === DESIGN TOKENS === */
+:root{
+  --bg:#050508;
+  --card:#10101b;
+  --border:rgba(85,150,255,0.15);
+  --quantum:#b89eff;
+  --classic:#5596ff;
+  --target:#ffd166;
+  --success:#6ff7c0;
+  --text:#e8e6f8;
+  --muted:#5c6883;
+  --radius:16px;
+  --font-sans:'Inter',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+
+/* === BASE === */
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--font-sans);overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background:
+  radial-gradient(ellipse 60% 40% at 20% 20%,rgba(85,150,255,.06) 0%,transparent 70%),
+  radial-gradient(ellipse 50% 50% at 80% 80%,rgba(184,158,255,.06) 0%,transparent 70%);
+  pointer-events:none;z-index:0}
+
+/* === LAYOUT === */
+.layout{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:36px 20px 50px;gap:28px}
+
+/* === HEADER === */
+header{text-align:center;max-width:800px;animation:fadeUp .6s ease both}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(85,150,255,.12);border:1px solid rgba(85,150,255,.3);color:var(--classic);font-size:.7rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 14px;border-radius:100px;margin-bottom:12px}
+.pulse-dot{width:7px;height:7px;border-radius:50%;background:var(--classic);box-shadow:0 0 8px var(--classic);animation:blink 1s infinite alternate}
+h1{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;background:linear-gradient(135deg,var(--text),var(--classic));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.2;margin-bottom:10px;letter-spacing:-.3px}
+header p{color:var(--muted);font-size:.88rem;line-height:1.65}
+
+/* === GRID === */
+.grid{display:grid;grid-template-columns:1fr 300px;gap:18px;width:100%;max-width:1100px;animation:fadeUp .6s .1s ease both}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+
+/* === CARD === */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;position:relative;overflow:hidden}
+.card-title{font-size:.7rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text);opacity:.7;margin-bottom:12px}
+
+/* === CANVAS === */
+.canvas-wrap{position:relative;border-radius:12px;overflow:hidden;background:linear-gradient(145deg,#08080e,#0c0c14);border:1px solid rgba(255,255,255,.04)}
+#plotCanvas{display:block;width:100%}
+.canvas-hint{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);background:rgba(5,5,8,.85);backdrop-filter:blur(6px);border:1px solid var(--border);border-radius:100px;padding:4px 14px;font-size:.65rem;color:var(--muted);pointer-events:none;white-space:nowrap}
+
+/* === STATS === */
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.stat{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);border-radius:10px;padding:12px}
+.stat-label{font-size:.6rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;font-weight:600;margin-bottom:5px;display:flex;align-items:center;gap:5px}
+.stat-val{font-family:var(--font-mono);font-size:1.15rem;font-weight:600;transition:transform .2s}
+.stat-val.pop{animation:pop .25s ease}
+.dot{width:7px;height:7px;border-radius:50%}
+
+/* === INFO ROWS === */
+.info-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.03)}
+.info-row:last-child{border:none}
+.i-lbl{font-size:.75rem;color:var(--muted)}
+.i-val{font-family:var(--font-mono);font-size:.78rem;color:var(--text);font-weight:500}
+
+/* === LEGEND === */
+.legend{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:12px;background:rgba(0,0,0,.25);padding:8px;border-radius:8px}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:.68rem;color:var(--muted)}
+.leg-line{width:18px;height:3px;border-radius:2px}
+.leg-dash{width:18px;height:0;border-top:2px dashed;opacity:.6}
+.leg-cross{font-size:9px;color:rgba(255,255,255,.6);font-family:monospace;width:18px;text-align:center}
+
+/* === EQUATION BOX === */
+.eq{font-family:var(--font-mono);font-size:.72rem;background:rgba(85,150,255,.08);padding:6px 10px;border-radius:8px;color:var(--classic);text-align:center;border:1px solid rgba(85,150,255,.15);margin-bottom:10px}
+
+/* === RECORD PULSE === */
+@keyframes alertPulse{0%{box-shadow:inset 0 0 0 transparent}50%{box-shadow:inset 0 0 25px rgba(255,209,102,.12)}100%{box-shadow:inset 0 0 0 transparent}}
+.record-pulse{animation:alertPulse 1.2s infinite;border-color:rgba(255,209,102,.4)!important}
+
+/* === ANIMATIONS === */
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.12)}100%{transform:scale(1)}}
+@keyframes blink{from{opacity:.35}to{opacity:1}}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<header>
+  <div class="badge"><div class="pulse-dot" id="liveDot"></div><span id="connStatus">Aguardando...</span></div>
+  <h1>Pipeline Híbrido: Regressão Linear + QPU</h1>
+  <p>Mitigação de ruído quântico via Mínimos Quadrados no PC clássico.<br>Convergência acelerada por Ansatz Ouroboros (Borromean Rings + Φ).</p>
+</header>
+
+<div class="grid">
+  <!-- CHART -->
+  <div class="card" style="padding:16px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <span class="card-title" style="margin:0">Cost Landscape & Mitigação</span>
+      <span style="font-size:.65rem;color:var(--muted);font-family:var(--font-mono)">ITER <span id="lblEpoch" style="color:#fff">0</span></span>
+    </div>
+    <div class="canvas-wrap">
+      <canvas id="plotCanvas"></canvas>
+      <div class="canvas-hint" id="statusHint">Aguardando live_data.json...</div>
+    </div>
+    <div class="legend">
+      <div class="leg-item"><span class="leg-cross">✕</span>QPU Raw (Shot Noise)</div>
+      <div class="leg-item"><div class="leg-line" style="background:var(--classic)"></div>Predição Clássica ŷ</div>
+      <div class="leg-item"><div class="leg-dash" style="border-color:var(--target)"></div>Ground State Alvo</div>
+    </div>
+  </div>
+
+  <!-- SIDE PANEL -->
+  <div>
+    <div class="card" id="metricsCard" style="margin-bottom:14px;background:linear-gradient(145deg,rgba(85,150,255,.04),transparent)">
+      <div class="card-title">Métricas</div>
+      <div class="stat-grid">
+        <div class="stat" style="border-color:rgba(184,158,255,.25)">
+          <div class="stat-label"><div class="dot" style="background:var(--quantum)"></div>QPU Raw</div>
+          <div class="stat-val" id="valRaw" style="color:var(--quantum)">--</div>
+        </div>
+        <div class="stat" style="border-color:rgba(85,150,255,.35);background:rgba(85,150,255,.04)">
+          <div class="stat-label"><div class="dot" style="background:var(--classic)"></div>PC ŷ</div>
+          <div class="stat-val" id="valPred" style="color:var(--classic)">--</div>
+        </div>
+      </div>
+      <div class="eq" id="lblEq">ŷ = mx + b | R² = --</div>
+      <div class="info-row">
+        <span class="i-lbl">Δ Alvo</span>
+        <span class="i-val" id="errDelta" style="color:var(--target)">--</span>
+      </div>
+      <div class="info-row">
+        <span class="i-lbl">Convergência</span>
+        <span class="i-val" id="convStatus" style="color:var(--muted)">--</span>
+      </div>
+    </div>
+    <div class="card" style="padding:16px">
+      <div class="card-title">Setup</div>
+      <div class="info-row"><span class="i-lbl">Abordagem</span><span class="i-val">Híbrida Q-C</span></div>
+      <div class="info-row"><span class="i-lbl">Entanglement</span><span class="i-val">Borromean CZ</span></div>
+      <div class="info-row"><span class="i-lbl">Mitigador</span><span class="i-val">OLS (M.Q.)</span></div>
+      <div class="info-row"><span class="i-lbl">Alvo</span><span class="i-val" id="lblTarget">-5.609</span></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+/* ========================================================
+   DASHBOARD ENGINE
+   Consome: live_data.json (formato CLAUDE.MD)
+   ======================================================== */
+const canvas = document.getElementById('plotCanvas');
+const ctx = canvas.getContext('2d');
+const CFG = { epochMax:60, eMax:-0.5, eMin:-7.0, target:-5.609 };
+const PAD = { top:28, right:26, bottom:36, left:54 };
+
+function resize(){
+  const r = canvas.parentElement.getBoundingClientRect();
+  canvas.width = r.width;
+  canvas.height = r.width * 0.52;
+}
+window.addEventListener('resize', resize); resize();
+
+function d2c(ep, en){
+  const pw = canvas.width-PAD.left-PAD.right;
+  const ph = canvas.height-PAD.top-PAD.bottom;
+  const ec = Math.max(CFG.eMin, Math.min(CFG.eMax, en));
+  return {
+    x: PAD.left + (ep/CFG.epochMax)*pw,
+    y: PAD.top + (1-(ec-CFG.eMin)/(CFG.eMax-CFG.eMin))*ph
+  };
+}
+
+let D = {epochs:[], quantum:[], classic:[], status:'', stats:{}};
+let prevLen = 0;
+let flash = 0;
+
+function drawCross(cx, cy, c){ ctx.strokeStyle=c; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(cx-3,cy-3); ctx.lineTo(cx+3,cy+3); ctx.moveTo(cx-3,cy+3); ctx.lineTo(cx+3,cy-3); ctx.stroke(); }
+
+function draw(ts){
+  const W=canvas.width, H=canvas.height;
+  ctx.clearRect(0,0,W,H);
+
+  /* grid */
+  ctx.strokeStyle='rgba(255,255,255,.04)'; ctx.lineWidth=1;
+  ctx.font='10px JetBrains Mono'; ctx.fillStyle='rgba(255,255,255,.25)';
+  ctx.textAlign='right'; ctx.textBaseline='middle';
+  for(let e=0;e>=-7;e--){ const p=d2c(0,e); ctx.beginPath(); ctx.moveTo(PAD.left,p.y); ctx.lineTo(W-PAD.right,p.y); ctx.stroke(); ctx.fillText(e.toFixed(0),PAD.left-6,p.y); }
+  ctx.textAlign='center'; ctx.textBaseline='top';
+  for(let ep=0;ep<=60;ep+=10){ const p=d2c(ep,0); ctx.beginPath(); ctx.moveTo(p.x,PAD.top); ctx.lineTo(p.x,H-PAD.bottom); ctx.stroke(); ctx.fillText(ep,p.x,H-PAD.bottom+6); }
+
+  /* target line */
+  const g1=d2c(0,CFG.target), g2=d2c(CFG.epochMax,CFG.target);
+  ctx.save(); ctx.strokeStyle='rgba(255,209,102,.5)'; ctx.lineWidth=1.5; ctx.setLineDash([5,4]);
+  ctx.beginPath(); ctx.moveTo(g1.x,g1.y); ctx.lineTo(g2.x,g2.y); ctx.stroke();
+  ctx.fillStyle='rgba(255,209,102,.04)';
+  const bT=d2c(0,CFG.target+0.1).y, bB=d2c(0,CFG.target-0.1).y;
+  ctx.fillRect(PAD.left,bT,W-PAD.left-PAD.right,bB-bT);
+  ctx.restore();
+
+  if(!D.epochs.length){ requestAnimationFrame(draw); return; }
+
+  /* quantum raw crosses + residuals */
+  ctx.save();
+  for(let i=0;i<D.epochs.length;i++){
+    const pQ=d2c(D.epochs[i],D.quantum[i]);
+    const pC=d2c(D.epochs[i],D.classic[i]);
+    drawCross(pQ.x,pQ.y,'rgba(184,158,255,0.6)');
+    ctx.strokeStyle='rgba(255,255,255,.06)'; ctx.setLineDash([2,2]); ctx.lineWidth=1;
+    ctx.beginPath(); ctx.moveTo(pQ.x,pQ.y); ctx.lineTo(pC.x,pC.y); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+  ctx.restore();
+
+  /* classical prediction line */
+  ctx.save();
+  ctx.strokeStyle='#5596ff'; ctx.lineWidth=2.5;
+  ctx.shadowColor='rgba(85,150,255,.4)'; ctx.shadowBlur=8;
+  ctx.beginPath();
+  for(let i=0;i<D.epochs.length;i++){
+    const p=d2c(D.epochs[i],D.classic[i]);
+    i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y);
+  }
+  ctx.stroke();
+
+  /* endpoint dot */
+  const last=D.epochs.length-1;
+  const pE=d2c(D.epochs[last],D.classic[last]);
+  let r=4; if(flash>0){r+=flash*1.5;flash-=0.4;}
+  ctx.beginPath(); ctx.arc(pE.x,pE.y,r,0,Math.PI*2);
+  ctx.fillStyle=D.status==='record'?'#ffd166':'#fff'; ctx.fill();
+  ctx.restore();
+
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+
+function pop(id,val){
+  const el=document.getElementById(id);
+  if(el.textContent!==val){el.textContent=val;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');}
+}
+
+/* POLLING */
+const JSON_PATH = '/results/live_data.json';
+
+setInterval(async()=>{
+  try{
+    const r=await fetch(JSON_PATH+'?t='+Date.now());
+    const data=await r.json();
+    document.getElementById('connStatus').textContent='LINK '+data.status.toUpperCase();
+    document.getElementById('statusHint').textContent='Recebendo telemetria...';
+
+    if(data.epochs.length>0){
+      D.epochs=data.epochs; D.quantum=data.quantum_raw; D.classic=data.classical_pred;
+      D.status=data.status; D.stats=data.stats||{};
+
+      /* update dynamic epoch max */
+      CFG.epochMax = Math.max(60, data.config?.max_epochs || 60);
+
+      const li=data.epochs.length-1;
+      const lQ=data.quantum_raw[li], lC=data.classical_pred[li];
+      document.getElementById('lblEpoch').textContent=data.epochs[li];
+      pop('valRaw',lQ.toFixed(3));
+      pop('valPred',lC.toFixed(3));
+
+      const delta=Math.abs(CFG.target-lC);
+      pop('errDelta','Δ '+delta.toFixed(4));
+
+      if(D.stats.m!==undefined){
+        document.getElementById('lblEq').textContent=
+          'ŷ = '+D.stats.m.toFixed(4)+'x + ('+D.stats.b.toFixed(2)+') | R² = '+D.stats.R2.toFixed(3);
+      }
+
+      if(data.epochs.length>prevLen){flash=3;prevLen=data.epochs.length;}
+
+      const mc=document.getElementById('metricsCard');
+      const cs=document.getElementById('convStatus');
+      if(data.status==='record'){
+        mc.classList.add('record-pulse');
+        cs.textContent='RECORDE!'; cs.style.color='#ffd166';
+      } else {
+        mc.classList.remove('record-pulse');
+        cs.textContent='Otimizando...'; cs.style.color='var(--classic)';
+      }
+
+      if(data.config?.target) document.getElementById('lblTarget').textContent=data.config.target;
+    }
+  }catch(e){}
+},300);
+</script>
+</body>
+</html>

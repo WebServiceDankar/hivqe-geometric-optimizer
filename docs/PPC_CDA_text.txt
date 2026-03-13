@@ -1,0 +1,1875 @@
+
+--- Pagina 1 ---
+ 
+CURSO DE 
+GRADUAÇÃO EM  
+CIÊNCIA DE DADOS 
+APLICADA  
+Projeto Pedagógico 
+2025 
+--- Pagina 2 ---
+INFORMAÇÕES INSTITUCIONAIS
+UNIVERSIDADE FEDERAL DE ITAJUBÁ
+Campus Sede Itajubá
+REITOR
+Prof. Dr. Marcel Fernando da Costa Parentoni
+e-mail: reitoria@unifei.edu.br
+Telefone: (35) 3629-1108
+VICE-REITORA
+Profa. Dra. Janaina Roberta dos Santos
+e-mail: vicereitor@unifei.edu.br
+Telefone: (35) 3629-1107
+PRÓ-REITOR DE GRADUAÇÃO
+Prof. Dr. Rodrigo Silva Lima
+e-mail: prg@unifei.edu.br
+Telefone: (35) 3629-1107
+PRÓ-REITORA DE PÓS-GRADUAÇÃO
+Profa. Dra. Vanessa Silveira Barreto Carvalho
+e-mail: prppg@unifei.edu.br
+Telefone: (35) 3629-1118
+DIRETOR DO IEPG
+Prof. Dr. Renato da Silva Lima
+e-mail: diretoria.iepg@unifei.edu.br
+Telefone: (35) 3629-1296
+GRUPO DE TRABALHO
+Prof. Dr. Anderson Paulo de Paiva
+Prof. Dr. Carlos Eduardo Sanches da Silva
+Prof. Dr. Carlos Henrique Pereira Mello
+Profa. Dra. Juliana Helena Daroz Gaudencio
+Prof. Dr. Matheus Brendon Francisco
+Prof. Dr. Joao Luiz Junho Pereira
+Prof. Dr. Victor Eduardo de Mello Valerio
+--- Pagina 3 ---
+SUMÁRIO
+PROJETO PEDAGÓGICO DO CURSO
+1 INTRODUÇÃO 1
+1.1 Histórico de Criação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+2 ESTRUTURA ADMINISTRATIVA 4
+3 JUSTIFICATIVA DO CURSO 5
+4 OBJETIVOS DO CURSO 7
+4.1 Missão . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+4.2 Objetivo geral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+4.3 Objetivos especíﬁcos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+5 PERFIL DO INGRESSANTE 9
+6 NÚCLEO DOCENTE ESTRUTURANTE 10
+7 COLEGIADO DO CURSO 11
+8 COORDENADOR DO CURSO 12
+9 PERFIL DO EGRESSO 13
+9.1 Competências Técnicas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.2 Competências Analíticas e Cognitivas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.3 Competências Sociais, Éticas e Proﬁssionais . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.4 Áreas de Atuação do Egresso . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+9.5 Síntese do Perﬁl Proﬁssional . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+10 POLÍTICAS INSTITUCIONAIS 15
+10.1 Política de ensino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+10.2 Programa de atendimento ao corpo discente . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+10.3 Políticas e ações de acompanhamento dos egressos . . . . . . . . . . . . . . . . . . . . . . 15
+10.4 Comunicação da UNIFEI com a comunidade interna e externa . . . . . . . . . . . . . . . 16
+--- Pagina 4 ---
+SUMÁRIO
+11 REQUISITOS LEGAIS 17
+11.1 Condições de Acesso para Pessoas com Deﬁciência e/ou Mobilidade Reduzida . . . . . . . 17
+11.2 Disciplina Optativa de Libras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+12 LEGISLAÇÃO ESPECÍFICA 19
+13 FUNDAMENTOS DIÁTICO-PEDAGÓGICOS 20
+13.1 Princípios didáticos-metodológicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+13.2 Estratégias de aprendizagem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+13.2.1 Acessibilidade Metodológica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+13.2.2 Autonomia Discente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+14 SISTEMA DE AVALIAÇÃO 24
+14.1 Avaliação do discente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+14.2 Avaliação externa à universidade . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+14.3 Avaliação interna à universidade e do docente . . . . . . . . . . . . . . . . . . . . . . . . . 26
+15 ALINHAMENTO AO PDI 28
+16 RECURSOS 30
+16.1 Corpo docente e técnico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+16.2 Apoio pedagógico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+16.3 Apoio aos discentes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+16.4 Cooperações e parcerias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+17 ESTRUTURA CURRICULAR 32
+17.1 Projeto Integrador . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+17.2 Trabalho de Conclusão de Curso . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+17.3 Atividades de extensão . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+17.4 Trilhas de Aprendizagem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+17.5 EMENTÁRIO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+17.5.1 Disciplinas Obrigatórias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+17.5.2 Disciplinas Optativas das Trilhas . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+17.5.3 Disciplinas Optativas Gerais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+--- Pagina 5 ---
+1
+INTRODUÇÃO
+A UNIFEI, com sede na cidade de Itajubá, sul de Minas Gerais, foi fundada em 23 de novembro de 1913,
+sendo a décima escola de Engenharia a se instalar no país. Em 2013 comemorou 100 anos de história com
+mais de 30 cursos de graduação, 26 de pós-graduação, cerca de 8.500 alunos e uma forte ligação com o
+universo da ciência, tecnologia, inovação e empreendedorismo.
+Com um histórico em desenvolvimento de ferramentas educacionais, a UNIFEI vai além de,
+simplesmente, incentivar e inspirar os alunos, mas, na oferta permanente e constante do acesso às fer-
+ramentas necessárias para o avanço e necessidade da humanidade. O Bacharelado em Ciência de Dados
+Aplicada, ofertado pelo Instituto de Engenharia de Produção e Gestão (IEPG), nasce em um contexto
+global marcado pela crescente centralidade dos dados como insumo estratégico para a tomada de decisão,
+modelagem de cenários, automação inteligente e inovação em praticamente todos os setores da economia.
+A ciência de dados consolidou-se como um campo interdisciplinar que integra estatística, com-
+putação, gestão, métodos quantitativos e conhecimento setorial, permitindo transformar grandes volumes
+de dados em informações relevantes, modelos preditivos e soluções aplicadas. A UNIFEI, instituição de
+excelência em engenharia e tecnologia há mais de um século, possui um ecossistema acadêmico e cientíﬁco
+especialmente favorável ao desenvolvimento de um curso desse tipo. Os laboratórios institucionais, os
+centros de inovação, as parcerias estratégicas com indústria, governo e setor de serviços, além do am-
+biente empreendedor consolidado na cidade de Itajubá, oferecem as condições ideais para formação de
+proﬁssionais altamente qualiﬁcados.
+O curso foi concebido para atender às demandas contemporâneas de diversos setores — como
+saúde, energia, esportes, ﬁnanças, petróleo e gás, manufatura avançada, agricultura e setor público —
+que enfrentam desaﬁos complexos e crescentes relacionados à análise de dados, inteligência artiﬁcial,
+governança e segurança informacional. A proposta de Ciência de Dados Aplicada diferencia-se ao enfatizar
+a aplicação prática dos métodos e tecnologias de dados em problemas reais enfrentados pelas organizações,
+com foco no impacto social, econômico e tecnológico.
+O curso também se alinha às Diretrizes Curriculares Nacionais da área de Computação e às
+políticas institucionais da UNIFEI, incluindo o Plano de Desenvolvimento Institucional (PDI), que destaca
+a relevância estratégica das áreas de tecnologia da informação, inovação e transformação digital.
+Dessa forma, o Bacharelado em Ciência de Dados Aplicada busca formar proﬁssionais capazes
+de atuar em todo o ciclo de vida dos dados — desde a coleta, organização, limpeza e exploração, até o
+desenvolvimento de modelos preditivos, soluções inteligentes e análises interpretáveis. A formação ancora-
+se em sólidos fundamentos estatísticos, computacionais e metodológicos, integrados a competências de
+comunicação, ética, governança e visão sistêmica.
+Alguns resultados importantes já foram alcançados pela instituição em relação à Inteligência
+Artiﬁcial. Em 2021, a UNIFEI ﬁrmou um convênio com o ICTP-Trieste, um instituto de pesquisa
+italiano, para desenvolvimento da Tiny Machine Learning, uma ferramenta de aprendizado de máquina
+para sistemas embarcados. A instituição também tem sido pioneira no desenvolvimento de algoritmos
+1
+--- Pagina 6 ---
+2 1. INTRODUÇÃO
+com vários registros de softwares no INPI desenvolvidos por grupos de pesquisas. Um deles foi o primeiro
+algoritmo de Inteligência Artiﬁcial para otimização multi-objetivo do Brasil e resultou no prêmio CAPES
+de Teses em 2023.
+Algumas características do curso de Ciência de Dados Aplicada merecem ser destacadas, pois a
+proposta tem como objetivo formar um proﬁssional capaz de integrar engenharia, dados, automação e
+inteligência artiﬁcial em soluções reais de alto impacto, articulando competências técnicas, analíticas e
+empreendedoras.
+Uma das principais inovações do curso será o incentivo à adoção sistemática de projetos inte-
+gradores que utilizam dados e problemas reais. Esses projetos permitem que os estudantes construam
+pipelines de dados reprodutíveis, executem experimentos de machine learning com rastreabilidade, inte-
+grem soluções com sistemas OT/IT, desenvolvam interfaces operacionais e apresentem resultados técnicos
+e de negócio com métricas claras.
+Além de seu caráter aplicado, tais projetos têm natureza extensionista, articulando-se diretamente
+com demandas de organizações, instituições públicas, empresas locais e desaﬁos regionais. Dessa forma, o
+curso reforça seu compromisso com o impacto regional, contribuindo para o desenvolvimento de soluções
+reais e socialmente relevantes. Os projetos integradores também se conectam às trilhas temáticas —
+Saúde, Esporte e Gestão — permitindo que os estudantes apliquem conhecimentos técnicos em contextos
+concretos desses setores, favorecendo uma aprendizagem orientada por problemas e desaﬁos reais.
+As trilhas, por sua vez, constituem outro diferencial importante do curso. Elas ampliam a
+autonomia do estudante, permitindo que personalize sua trajetória acadêmica e se especialize em áreas
+estratégicas de aplicação da ciência de dados. Ao alinhar conteúdos técnicos a setores especíﬁcos, as
+trilhas fortalecem a interdisciplinaridade, aproximam o aluno de temas contemporâneos e ampliam sua
+capacidade de atuação em diferentes mercados. Trata-se de um componente estrutural que diferencia o
+curso pela combinação entre rigor técnico, contextualização prática e relevância social.
+1.1 Histórico de Criação
+O Bacharelado em Ciência de Dados Aplicada começou a ser planejado no primeiro semestre de 2023 com
+a criação da trilha de Machine Learning em Engenharia de Produção. Tendo convergência entre o PDI
+da UNIFEI (inovação curricular, integração graduação–pós e foco em Indústria 4.0) e a maturidade do
+Programa de Pós-Graduação em Engenharia de Produção (PPGEP - Conceito CAPES 5), especialmente
+na linha “Modelagem, Otimização e Controle” . Diante da conversão das expertises dos resultados das
+pesquisas do programa de pós-graduação em engenharia de produção, apoiada pela infraestrutura do
+NOMATI.
+Assim a criação do curso de Ciência de Dados Aplicada responde à convergência de quatro
+vetores: (i) adoção acelerada de tecnologias 4.0 (IA/ML, automação avançada, sistemas ciberfísicos, IoT,
+analytics em nuvem e DevOps) como base da competitividade; (ii) forte demanda de mercado e escassez
+de proﬁssionais com competências integradas em dados, software, processos e gestão da mudança (WEF
+2023); (iii) oportunidade institucional de diferenciar a graduação, reverter evasão e elevar empregabilidade
+por meio de uma formação orientada a projetos reais; e (iv) capacidade instalada na UNIFEI/PPGEP e
+no NOMATI (pesquisa aplicada, laboratórios e docência) que permite escalar iniciativas existentes (como
+a trilha de ML) para uma matriz abrangente que integra IA aplicada, automação e engenharia de dados
+aos conhecimentos técnicos da engenharia de produção e além.
+--- Pagina 7 ---
+1.1. HISTÓRICO DE CRIAÇÃO 3
+Assim, o curso alinha-se ao PDI, atende às exigências industriais por transformação digital end-
+to-end e consolida a UNIFEI como referência nacional na formação para a Indústria 4.0.
+O Bacharelado em Ciência de Dados Aplicada ainda não foi aprovado pelo Conselho Universitário
+da UNIFEI.
+--- Pagina 8 ---
+2
+ESTRUTURA ADMINISTRATIVA
+O Bacharel em Ciência de Dados Aplicada, do Campus de Itajubá da UNIFEI, que será responsável pela
+gestão dos recursos humanos alocados para o curso, será alocado no IEPG e contará com o apoio do
+NOMATI.
+Das disciplinas a serem oferecidas no curso 100% serão alocadas ao IEPG, sendo 47% já existentes
+e 53% a serem criadas.
+Dados cadastrais:
+•Ao ﬁnal do curso o aluno terá o Grau de Bacharel em Ciência de Dados Aplicada .
+•Código de cadastro e-mec :ainda não tem .
+•Carga horária do curso : 3.870 horas.aula (3.225 horas.relógio).
+•Duração prevista em semestres : mínima 7 (sete), esperada 8 (oito) e máxima 15 (quinze).
+•Turno : noturno.
+•Primeira oferta do curso : segundo semestre de 2026.
+•Total de vagas para primeira oferta : 40 vagas por ano.
+•Forma de ingresso : prioritariamente pelo SISU – Sistema de Seleção Uniﬁcado, que utiliza as
+notas do ENEM.
+Elemento CH (Hora.Aula) CH (Hora.Relógio)
+Disciplinas Obrigatórias NA NA
+Disciplonas Optativas 240 200
+Estágio Supervisionado 350 292
+Trabalho de Conclusão de Curso 360 300
+Atividade de Extensão 488 407
+Atividade Complementar 400 333
+Total NA NA
+4
+--- Pagina 9 ---
+3
+JUSTIFICATIVA DO CURSO
+O curso de Ciências de Dados Aplicados surge como uma resposta às necessidades crescentes do mercado
+e da sociedade. A seguir, apresenta-se algumas justiﬁcativas que sustentam essa demanda:
+1.Crescimento do Mercado de Dados
+•Aumento da Geração de Dados: Com a digitalização e a transformação digital, há um volume
+exponencial de dados sendo gerados diariamente. Empresas e organizações precisam de proﬁssionais
+capacitados para coletar, analisar, interpretar e suportar tomada de decisões estratégicas com esses
+dados.
+•Demanda por Proﬁssionais Qualiﬁcados: Segundo estudos de mercado, a demanda por cientistas de
+dados e analistas de dados tem crescido rapidamente, com uma escassez de proﬁssionais qualiﬁcados
+para preencher essas vagas.
+2.Relevância para Diversos Setores
+•Interdisciplinaridade: A ciência de dados é aplicável em diversas áreas, como saúde, ﬁnanças,
+educação, marketing e meio ambiente. Isso torna os proﬁssionais formados em Ciências de Dados
+Aplicados versáteis e altamente valorizados no mercado.
+•Soluções Baseadas em Dados: Organizações estão cada vez mais buscando soluções baseadas em
+dados para melhorar processos, otimizar recursos e inovar em produtos e serviços.
+3.Impacto Social e Comunitário
+•Resolução de Problemas Sociais: Proﬁssionais de ciência de dados podem contribuir para a solução
+de problemas sociais, como a análise de dados em saúde pública, segurança, educação e sustentabil-
+idade.
+•Apoio à Tomada de Decisão: A capacidade de transformar dados em insights acionáveis pode
+melhorar a tomada de decisão em políticas públicas e iniciativas comunitárias.
+4.Formação Integrada e Prática
+•Educação Prática: O curso de Ciências de Dados Aplicados pode incluir experiências práticas,
+como estágios e projetos de extensão, que permitem aos alunos aplicar conhecimentos teóricos em
+situações reais, aumentando sua empregabilidade.
+•Desenvolvimento de Soft Skills: Além das habilidades técnicas, o curso pode desenvolver com-
+petências interpessoais, como trabalho em equipe, comunicação e pensamento crítico, essenciais no
+ambiente proﬁssional.
+5
+--- Pagina 10 ---
+6 3. JUSTIFICATIVA DO CURSO
+5.Inovação e Empreendedorismo
+•Fomento à Inovação: A formação em ciências de dados estimula a inovação, permitindo que os
+alunos desenvolvam novas soluções e abordagens para problemas existentes, o que pode levar à
+criação de startups e novos negócios.
+•Apoio ao Empreendedorismo: Os conhecimentos adquiridos podem ser aplicados em projetos
+próprios, capacitando os alunos a se tornarem empreendedores no campo da tecnologia e análise
+de dados.
+--- Pagina 11 ---
+4
+OBJETIVOS DO CURSO
+4.1 Missão
+O curso de Ciência de Dados Aplicada tem como missão formar proﬁssionais altamente capacitados para
+atuar na análise e interpretação de dados, utilizando técnicas avançadas de Machine Learning e estatís-
+tica. Buscamos desenvolver competências que permitam aos alunos transformar dados em informações
+estratégicas, contribuindo para a tomada de decisões em diversos setores da economia. Nossa abordagem
+interdisciplinar integra fundamentos de engenharia, computação e ciências sociais, promovendo uma for-
+mação ética e crítica, capaz de responder aos desaﬁos contemporâneos da sociedade e do mercado de
+trabalho.
+4.2 Objetivo geral
+Capacitar os estudantes a desenvolver, implementar e avaliar soluções analíticas baseadas em dados, com
+ênfase em técnicas de Machine Learning e estatística. O curso visa formar proﬁssionais que sejam capazes
+de transformar dados brutos em informações úteis, contribuindo para a tomada de decisões estratégicas
+em diversas áreas, como negócios, saúde, educação e tecnologia. Além disso, busca-se promover uma
+formação crítica e ética, preparando os alunos para enfrentar os desaﬁos sociais e éticos relacionados ao
+uso de dados.
+4.3 Objetivos especíﬁcos
+1.Desenvolver Competências Técnicas: Capacitar os alunos a utilizar ferramentas e técnicas de análise
+de dados, incluindo estatísticas descritivas, inferenciais e algoritmos de Machine Learning, para
+resolver problemas práticos.
+2.Implementar Projetos de Dados: Ensinar os alunos a planejar, implementar e avaliar projetos de
+ciência de dados, desde a coleta e pré-processamento de dados até a modelagem e interpretação dos
+resultados.
+3.Promover a Interdisciplinaridade: Integrar conhecimentos de diferentes áreas, como computação,
+estatística e ciências sociais, para que os alunos possam abordar problemas complexos de forma
+holística.
+4.Fomentar a Ética e a Responsabilidade Social: Sensibilizar os alunos sobre as implicações éticas do
+uso de dados, promovendo uma formação que valorize a privacidade, a justiça e a transparência nas
+análises.
+5.Preparar para o Mercado de Trabalho: Proporcionar experiências práticas e estágios que preparem
+7
+--- Pagina 12 ---
+8 4. OBJETIVOS DO CURSO
+os alunos para atuar em diversos setores, como saúde, ﬁnanças, tecnologia e educação, atendendo
+às demandas do mercado.
+6.Estimular a Pesquisa e a Inovação: Incentivar a realização de projetos de pesquisa que explorem
+novas técnicas e abordagens em ciência de dados, contribuindo para o avanço do conhecimento na
+área.
+7.Desenvolver Habilidades de Comunicação: Capacitar os alunos a comunicar resultados e insights
+de forma clara e eﬁcaz, utilizando visualizações de dados e relatórios que atendam às necessidades
+de diferentes públicos.
+Esses objetivos especíﬁcos visam garantir uma formação completa e adequada às exigências do
+mercado e às necessidades da sociedade.
+--- Pagina 13 ---
+5
+PERFIL DO INGRESSANTE
+As formas de acesso ao curso de Ciência de Dados podem variar de acordo com a instituição, mas
+geralmente incluem:
+1.Vestibular: Processo seletivo tradicional onde os candidatos realizam provas de conhecimentos gerais
+e especíﬁcos.
+2.Exame Nacional do Ensino Médio (ENEM): Utilização da nota do ENEM como critério de seleção
+para ingresso no curso, comum em muitas universidades brasileiras.
+3.Transferência: Possibilidade de alunos de outras instituições de ensino superior solicitarem trans-
+ferência para o curso, mediante análise de histórico escolar e adequação curricular.
+4.Reingresso: Para alunos que já foram matriculados em cursos da mesma instituição e desejam
+retornar ao curso de Ciência de Dados.
+Por sua vez, o perﬁl do ingressante no curso de Ciência de Dados geralmente inclui:
+1.Formação Prévia: Candidatos com formação em áreas como Matemática, Estatística, Computação,
+Engenharia, ou áreas aﬁns são frequentemente bem-vindos, mas não é uma exigência exclusiva.
+2.Interesse em Tecnologia e Dados: Um forte interesse por tecnologia, análise de dados e resolução
+de problemas complexos.
+3.Habilidades Analíticas: Capacidade de pensar criticamente e analisar informações quantitativas e
+qualitativas.
+4.Interesse em Programação: Familiaridade com linguagens de programação como Python ou R pode
+ser uma vantagem, embora não seja sempre um requisito.
+5.Perﬁl Proativo: Disposição para aprender continuamente e se adaptar às novas tecnologias e
+metodologias no campo da ciência de dados.
+6.Trabalho em Equipe: Habilidade de trabalhar colaborativamente em projetos, uma vez que muitas
+atividades envolvem equipes multidisciplinares.
+9
+--- Pagina 14 ---
+6
+NÚCLEO DOCENTE ESTRUTURANTE
+De acordo com o Parecer CONAES n. 4/2010, o Núcleo Docente Estruturante (NDE) visa qualiﬁcar
+a participação docente na concepção e consolidação de cursos de graduação. Segundo a legislação da
+Comissão Nacional de Avaliação da Educação Superior (2010), o NDE deve ser composto por docentes
+com atribuições acadêmicas, atuando na elaboração, consolidação e atualização contínua do Projeto
+Pedagógico do Curso (PPC).
+Conforme a Resolução CONAES n. 1/2010, os membros do NDE devem ter liderança acadêmica,
+reconhecida pela produção de conhecimento e desenvolvimento do ensino na área. O NDE não é um
+órgão deliberativo, mas serve como espaço para discutir atividades pedagógicas e acadêmicas, garantindo
+que ensino, pesquisa e extensão sejam realizadas de forma adequada.
+Segundo o Regimento Geral da Unifei, as atribuições do NDE são:
+1.Elaborar, acompanhar a execução e atualizar periodicamente o PPC e a estrutura curricular e
+disponibilizá-lo ao colegiado do curso para deliberação;
+2.Contribuir para a consolidação do perﬁl proﬁssional do egresso do curso;
+3.Zelar pela integração curricular interdisciplinar entre as diferentes atividades de ensino constantes
+no PPC;
+4.Indicar formas de incentivo ao desenvolvimento de linhas de pesquisa e atividades de extensão,
+oriundas de necessidades da graduação, de exigências do mercado de trabalho e aﬁnadas com as
+políticas públicas relativas à área de conhecimento do curso;
+5.Zelar pelo cumprimento das diretrizes curriculares nacionais para o curso de graduação e das normas
+internas da Unifei;
+6.Propor ações a partir de resultados obtidos nos processos de avaliação internos e externos.
+10
+--- Pagina 15 ---
+7
+COLEGIADO DO CURSO
+O Colegiado do curso é responsável pela gestão do curso em parceria com a Pró-reitoria de Graduação.
+Segundo o Regimento Geral da Unifei, cada Colegiado deve ter entre cinco e dez membros, sendo que:
+•60% devem ser docentes responsáveis por disciplinas da área proﬁssional do graduado;
+•Até 30% serão docentes de outras disciplinas;
+•Pelo menos um membro deve ser do corpo discente.
+O Colegiado, que segue normas especíﬁcas do Regimento Geral, reúne-se ordinariamente duas
+vezes por semestre e extraordinariamente quando convocado, caso dois terços dos membros solicitem a
+reunião. O mandato dos docentes é de dois anos, com possibilidade de recondução, enquanto os discentes
+têm mandato de um ano, também com recondução permitida.
+Os procedimentos para a eleição dos membros serão deﬁnidos em norma aprovada pela Câmara
+Superior de Graduação.
+Segundo o Regimento Geral da Unifei, compete ao Colegiado de Curso:
+1.Eleger o Coordenador de Curso;
+2.Propor nomes para comporem o NDE, encaminhando à Assembleia da Unidade para aprovação;
+3.Deliberar sobre o PPC, encaminhando à Assembleia da Unidade para aprovação;
+4.Promover a implementação do PPC;
+5.Aprovar alterações nos planos de ensino das disciplinas propostos pelo NDE;
+6.Elaborar e acompanhar o processo de avaliação e renovação de reconhecimento do curso;
+7.Estabelecer mecanismos de orientação acadêmica ao corpo discente do curso;
+8.Criar comissões para assuntos especíﬁcos;
+9.Designar coordenadores de Trabalho de Conclusão de Curso, Estágio, Mobilidade Acadêmica e
+Atividades Complementares;
+10.Analisar e emitir parecer sobre aproveitamento de estudos e adaptações, de acordo com norma
+especíﬁca aprovada pela Câmara Superior de Graduação;
+11.Julgar, em grau de recurso, as decisões do Coordenador do Curso;
+12.Decidir ou opinar sobre outras matérias pertinentes ao curso.
+11
+--- Pagina 16 ---
+8
+COORDENADOR DO CURSO
+O artigo 162 do Regimento Geral da Unifei determina que o Coordenador de Curso terá um mandato
+de 2 (dois) anos e será eleito pelo respectivo Colegiado do Curso, por maioria simples e em escrutínio
+único havendo um Coordenador Adjunto ou um substituto indicado pelo Coordenador eleito, /entre os
+membros do Colegiado do Curso, que terá como atribuição substituir o Coordenador em suas ausências
+ou impedimentos.
+A atuação do coordenador do curso obedece ao que estabelece o Regimento Geral da Unifei.
+Compete ao coordenador do curso: 1. Convocar e presidir as reuniões do Colegiado de Curso, com direito,
+somente, ao voto de qualidade; 2. Representar o Colegiado de Curso; 3. Supervisionar o funcionamento
+do curso; 4. Tomar medidas necessárias para a divulgação do curso; 5. Participar da elaboração do
+calendário didático da graduação; 6. Promover reuniões de planejamento do curso; 7. Orientar os alunos
+do Curso na matrícula e na organização e seleção de suas atividades curriculares; 8. Decidir sobre assuntos
+da rotina administrativa do curso; 9. Exercer outras atribuições inerentes ao cargo.
+12
+--- Pagina 17 ---
+9
+PERFIL DO EGRESSO
+O egresso do Bacharelado em Ciência de Dados Aplicada da UNIFEI será um proﬁssional com formação
+sólida, interdisciplinar e orientada para a aplicação prática da ciência de dados em diferentes setores
+da sociedade. A formação proporcionada pelo curso enfatiza competências analíticas, computacionais,
+matemáticas, estatísticas, éticas e gerenciais, preparando o futuro proﬁssional para atuar em ambientes
+dinâmicos, complexos e baseados em dados.
+O egresso estará apto a compreender e conduzir todas as etapas do ciclo de vida dos dados
+— desde a aquisição, organização, limpeza, armazenamento e processamento, até a análise exploratória,
+modelagem, validação, interpretabilidade, comunicação dos resultados e auxílio à tomada de decisão. Será
+capaz de propor soluções e estratégias orientadas por dados em contextos reais, considerando impactos
+sociais, econômicos, tecnológicos e ambientais.
+9.1 Competências Técnicas
+Ao concluir o curso, o egresso estará apto a:
+•Aplicar métodos estatísticos e matemáticos avançados em problemas complexos;
+•Desenvolver sistemas, modelos e algoritmos de aprendizado de máquina e inteligência artiﬁcial;
+•Projetar e gerenciar pipelines de dados, considerando escalabilidade, segurança e governança;
+•Dominar linguagens de programação utilizadas na ciência de dados (como Python);
+•Projetar e consultar bases de dados SQL e NoSQL;
+•Realizar análise exploratória de dados e visualização avançada para suporte à decisão;
+•Integrar ferramentas de big data, computação em nuvem e sistemas distribuídos;
+•Desenvolver soluções completas de MLOps, acompanhando modelos do desenvolvimento à produção.
+9.2 Competências Analíticas e Cognitivas
+•Estruturar problemas complexos de forma sistemática e orientada ao método cientíﬁco;
+•Avaliar criticamente resultados de modelos, métricas e evidências quantitativas;
+•Interpretar fenômenos por meio de dados e propor recomendações fundamentadas;
+•Comunicar resultados técnicos e analíticos para diferentes públicos, técnicos ou não técnicos.
+9.3 Competências Sociais, Éticas e Proﬁssionais
+•Atuar com responsabilidade ética no uso de dados, respeitando a legislação (incluindo LGPD);
+•Avaliar impactos sociais e organizacionais decorrentes do uso de dados e IA;
+•Trabalhar de forma colaborativa em equipes multidisciplinares;
+13
+--- Pagina 18 ---
+14 9. PERFIL DO EGRESSO
+•Demonstrar autonomia intelectual, criatividade e capacidade de aprendizagem contínua.
+9.4 Áreas de Atuação do Egresso
+O proﬁssional formado poderá atuar em diferentes setores, incluindo:
+•Esportes (análise de desempenho, biomecânica, predição de performance);
+•Saúde (análise de prontuários, modelos preditivos, diagnósticos assistidos);
+•Finanças (modelagem de risco, detecção de fraudes, algoritmos de investimento);
+•Indústria 4.0 (otimização, monitoramento inteligente, manutenção preditiva);
+•Energia e Sustentabilidade (previsão de demanda, eﬁciência energética, análise ambiental);
+•Petróleo e Gás (modelagem geológica, otimização de processos);
+•Governo e Setor Público (políticas públicas baseadas em evidências, segurança pública);
+•Agricultura de Precisão (modelagem climática, análise de solo, previsão de safra);
+•Comércio e Marketing (segmentação, análise de consumidores, estratégias orientadas a dados).
+9.5 Síntese do Perﬁl Proﬁssional
+O egresso será um cientista de dados capaz de atuar em diferentes contextos e setores, articulando
+conhecimentos técnicos e visão sistêmica para resolver problemas reais. Será um proﬁssional preparado
+para lidar com desaﬁos atuais e futuros relacionados à transformação digital, contribuindo para a inovação,
+competitividade e desenvolvimento sustentável das organizações e da sociedade.
+--- Pagina 19 ---
+10
+POLÍTICAS INSTITUCIONAIS
+10.1 Política de ensino
+As políticas institucionais da Universidade Federal de Itajubá (UNIFEI) são fundamentais para garan-
+tir um ambiente acadêmico de qualidade, inclusivo e voltado para o desenvolvimento integral dos estu-
+dantes. Neste contexto, a política de ensino se destaca pela busca constante de inovação nas metodologias
+pedagógicas e pela promoção de um currículo que atenda às demandas do mercado e da sociedade. Sendo
+constituída pelos eixos:
+•Qualidade Acadêmica: A UNIFEI busca garantir a qualidade do ensino por meio de um currículo
+atualizado, que atenda às demandas do mercado e da sociedade.
+•Metodologias Ativas: Incentivo ao uso de metodologias ativas de ensino-aprendizagem que pro-
+movam a participação ativa dos alunos e a construção do conhecimento.
+•Inclusão e Diversidade: Compromisso com a inclusão social e a diversidade, garantindo acesso e
+permanência de todos os estudantes, especialmente grupos historicamente marginalizados.
+10.2 Programa de atendimento ao corpo discente
+O programa de atendimento ao discente é estruturado para oferecer suporte psicológico, acadêmico e
+ﬁnanceiro, assegurando que todos os alunos tenham condições adequadas para o seu aprendizado e de-
+senvolvimento. Sendo pautado nas ações de:
+•Apoio Psicossocial: Disponibilização de serviços de apoio psicológico e social para auxiliar alunos
+em diﬁculdades acadêmicas ou pessoais.
+•Tutoria Acadêmica: Programas de tutoria que conectam alunos veteranos com ingressantes, pro-
+porcionando orientação e suporte acadêmico.
+•Bolsas e Auxílios: Oferecimento de bolsas de estudo e auxílios ﬁnanceiros para estudantes em
+situação de vulnerabilidade econômica.
+10.3 Políticas e ações de acompanhamento dos egressos
+A UNIFEI valoriza o acompanhamento dos egressos, reconhecendo a importância de entender suas tra-
+jetórias proﬁssionais e a contribuição que a formação acadêmica oferece em suas vidas. Sendo desenvolvi-
+das ações de:
+•Monitoramento de Egressos: Implementação de sistemas para acompanhar a trajetória proﬁssional
+dos egressos, coletando dados sobre sua inserção no mercado de trabalho.
+15
+--- Pagina 20 ---
+16 10. POLÍTICAS INSTITUCIONAIS
+•Feedback e Melhoria Contínua: Uso das informações coletadas para aprimorar os cursos e programas
+acadêmicos, garantindo que atendam às necessidades do mercado.
+•Rede de Egressos: Criação de uma rede de contatos entre egressos e a universidade, facilitando
+a troca de experiências e oportunidades de colaboração. Com destaque para o papel da Fun-
+dação Theodomiro Santiago (FTS) mantém um forte vínculo com ex-alunos da antiga EFEI (atual
+UNIFEI), que historicamente contribuíram como fundadores, colaboradores e membros. Atual-
+mente, a relação se concretiza através de eventos, homenagens e a participação ativa dos ex-alunos
+em órgãos como a assembleia da fundação. A FTS organiza atividades que promovem o reencontro
+e a troca de experiências entre gerações de ex-alunos.
+10.4 Comunicação da UNIFEI com a comunidade interna e ex-
+terna
+A comunicação com a comunidade interna e externa é um pilar essencial, promovendo a transparência e
+o engajamento entre a universidade e a sociedade. Assim, as políticas institucionais da UNIFEI reﬂetem
+seu compromisso com a excelência acadêmica e a responsabilidade social. Esta comunicação é pautada:
+•Transparência e Abertura: Compromisso com a transparência nas decisões e processos administra-
+tivos, promovendo uma comunicação clara e acessível.
+•Eventos e Atividades: Realização de eventos, palestras e workshops que envolvem a comunidade
+interna e externa, promovendo a troca de conhecimentos.
+•Canais de Comunicação: Utilização de diversas plataformas (site institucional, redes sociais,
+newsletters) para manter a comunidade informada sobre atividades, conquistas e oportunidades.
+--- Pagina 21 ---
+11
+REQUISITOS LEGAIS
+11.1 Condições de Acesso para Pessoas com Deﬁciência e/ou
+Mobilidade Reduzida
+A Universidade Federal de Itajubá (UNIFEI) adota uma série de medidas para garantir o acesso e a
+permanência de pessoas com deﬁciência e/ou mobilidade reduzida em suas atividades acadêmicas. Essas
+condições são fundamentais para promover a inclusão e a igualdade de oportunidades para todos os
+estudantes. A seguir, destacam-se algumas das principais iniciativas:
+•Acessibilidade Física
+–Infraestrutura Adaptada: A universidade conta com rampas de acesso, elevadores e banheiros
+adaptados, garantindo que todos os espaços físicos sejam acessíveis.
+–Sinalização: A sinalização adequada em braille e com contrastes visuais é implementada para
+facilitar a locomoção de pessoas com deﬁciência visual.
+•Apoio Acadêmico
+–Atendimento Especializado: Disponibilização de serviços de apoio psicológico e pedagógico,
+com proﬁssionais capacitados para atender às necessidades especíﬁcas dos alunos.
+–Materiais Acessíveis: Produção de materiais didáticos em formatos acessíveis, como audiobooks
+e textos em braille, para atender a diferentes tipos de deﬁciência.
+•Políticas de Inclusão
+–Formação e Capacitação: Realização de treinamentos para professores e funcionários sobre
+inclusão e acessibilidade, visando sensibilizar a comunidade acadêmica sobre as necessidades
+dos estudantes com deﬁciência.
+–Programas de Apoio: Implementação de programas de tutoria e mentorias especíﬁcas para
+alunos com deﬁciência, ajudando na adaptação ao ambiente acadêmico.
+•Comunicação e Sensibilização
+–Campanhas de Conscientização: Promoção de eventos e campanhas que visam sensibilizar a
+comunidade acadêmica sobre a importância da inclusão e do respeito às diferenças.
+–Canal de Comunicação: Disponibilização de um canal direto para que alunos com deﬁciên-
+cia possam relatar diﬁculdades e sugerir melhorias nas condições de acesso. Essas iniciativas
+reﬂetem o compromisso da UNIFEI em promover um ambiente inclusivo, onde todos os estu-
+dantes, independentemente de suas condições, possam ter acesso igualitário à educação e às
+oportunidades oferecidas pela universidade.
+17
+--- Pagina 22 ---
+18 11. REQUISITOS LEGAIS
+11.2 Disciplina Optativa de Libras
+A Universidade Federal de Itajubá (UNIFEI) oferece uma disciplina de Língua Brasileira de Sinais (Libras)
+classiﬁcada como optativa. Essa iniciativa é parte do compromisso da instituição em promover a inclusão
+e a acessibilidade para pessoas surdas e com deﬁciência auditiva. Esta oferta atende ao decreto número
+5.626, de 22 de dezembro de 2005.
+--- Pagina 23 ---
+12
+LEGISLAÇÃO ESPECÍFICA
+O Bacharelado em Ciência de Dados Aplicada atende a todas as legislações especíﬁcas comuns a todos
+os cursos de graduação, conforme apresentado a seguir.
+Conteúdo Disciplina
+Libras LET007 Libras - Língua Brasileira de Sinais (48 h)
+Direitos Humanos Nova - Ciência de dados e sociedade (32 h)
+Educação Ambiental Nova - Ciência de dados e sociedade (32 h)
+Educação para as Relações Étnico-raciais Nova - Ciência de dados e sociedade (32 h)
+A disciplina Ciência de Dados e Sociedade atende:
+•Lei 11.645 de 10/03/2008; Resolução CNE/CP 01 de 17 de junho de 2004 é prevista a oferta de
+disciplinas eletivas sobre a referida temática, bem como incentivada a participação de alunos em
+eventos que tratam da mesma.
+•Resolução CNE n. 1, de 30 de maio de 2012 voltado à Educação em Direitos Humanos e a adesão da
+Unifei ao Pacto Nacional para a Educação em Direitos Humanos que também aborda a questão da
+diversidade social, cultural, racial. O Pacto Universitário pela Promoção do Respeito à Diversidade,
+da Cultura da Paz e dos Direitos Humanos é uma iniciativa conjunta do Ministério da Educação e
+do Ministério da Justiça e Cidadania para a promoção da educação em direitos humanos no ensino
+superior.
+•Políticas de Educação Ambiental, destacadas na Lei n. 9.795, de 27 de abril de 1999 e Decreto
+n. 4.281, de 25 de junho de 2002. Bem como o Plano de Gestão e Logística Sustentável (PLS):
+Atendendo a Instrução Normativa 10/12, do Ministério de Planejamento, Orçamento e Gestão
+(MPOG) para as Instituições Federais de Ensino Superior foi criado o PLS da Instituição através
+de um grupo de trabalho coordenado por professores, alunos e técnicos;
+•Resolução CNE/CP nř 01, de 17 de junho de 2004 que aborda o ensino de história e cultura
+afro-brasileira, africana e indígena.
+19
+--- Pagina 24 ---
+13
+FUNDAMENTOS DIÁTICO-PEDAGÓGICOS
+O novo curso da Universidade Federal de Itajubá (UNIFEI) é fundamentado em princípios didáticos
+e pedagógicos que visam promover uma educação de qualidade, inclusiva e voltada para as demandas
+contemporâneas. A seguir, destacam-se os principais aspectos que norteiam essa proposta educacional:
+1.Abordagem Interdisciplinar : A formação busca integrar diferentes áreas do conhecimento, per-
+mitindo que os alunos desenvolvam uma compreensão holística dos temas abordados. Essa abor-
+dagem favorece a construção de saberes que dialogam entre si, preparando os estudantes para
+enfrentar desaﬁos complexos no mundo real.
+2.Educação Inclusiva : Um dos pilares do curso é a promoção da inclusão e da diversidade. As
+disciplinas de Libras e Ciência de Dados e Sociedade são fundamentais para garantir que os alunos
+se sintam respeitados e valorizados, independentemente de suas origens ou condições. Isso envolve
+um currículo inclusivo que cria um ambiente escolar acolhedor e equitativo.
+3.Metodologias Ativas : O uso de metodologias ativas é incentivado, estimulando a participação
+dos alunos no processo de aprendizagem. Através de práticas como debates, trabalhos em grupo e
+projetos, os estudantes são encorajados a se tornarem protagonistas de sua formação, desenvolvendo
+habilidades críticas e reﬂexivas.
+4.Formação para a Cidadania : O curso tem um forte compromisso com a formação de cidadãos
+conscientes e engajados. Os alunos são incentivados a reﬂetir sobre sua responsabilidade social e a
+atuar em prol de uma sociedade mais justa e sustentável, contribuindo para a transformação social.
+5.Integração Teoria-Prática : A articulação entre teoria e prática é essencial na formação dos
+alunos. O curso propõe experiências práticas que complementam a teoria, permitindo que os es-
+tudantes vivenciem e apliquem os conhecimentos adquiridos em situações reais. Os fundamentos
+didáticos e pedagógicos do novo curso da UNIFEI reﬂetem um compromisso com a excelência edu-
+cacional e a formação integral dos alunos. Ao promover uma educação inclusiva, interdisciplinar e
+voltada para a cidadania, a UNIFEI se posiciona como uma instituição que valoriza a diversidade
+e a responsabilidade social, preparando seus alunos para os desaﬁos vindouros.
+13.1 Princípios didáticos-metodológicos
+Os princípios didático-metodológicos do curso têm por base as diretrizes do Plano de Desenvolvimento
+Institucional e do Projeto Pedagógico Institucional da Universidade Federal de Itajubá. A prática docente
+fundamenta-se no respeito à pluralidade de concepções pedagógicas e na autonomia do docente para o
+planejamento didático, desde que atendidas as diretrizes previstas neste documento.
+20
+--- Pagina 25 ---
+13.2. ESTRATÉGIAS DE APRENDIZAGEM 21
+13.2 Estratégias de aprendizagem
+As estratégias de aprendizagem implementadas no novo curso da Universidade Federal de Itajubá
+(UNIFEI) são projetadas para promover um ambiente educacional dinâmico e eﬁcaz. Abaixo estão
+algumas das principais estratégias adotadas:
+•Aprendizagem Baseada em Projetos (ABP)
+–Descrição: Os alunos trabalham em projetos práticos que reﬂetem problemas reais, incenti-
+vando a aplicação do conhecimento teórico em situações concretas.
+–Objetivo: Desenvolver habilidades práticas, pensamento crítico e capacidade de resolução de
+problemas.
+•Estudos de Caso
+–Descrição: Análise de casos reais ou hipotéticos que desaﬁam os alunos a aplicar conceitos
+aprendidos e a desenvolver soluções.
+–Objetivo: Estimular a reﬂexão crítica e a discussão, promovendo uma compreensão mais pro-
+funda dos conteúdos.
+•Aprendizagem Colaborativa
+–Descrição: Os alunos são incentivados a trabalhar em grupos, compartilhando conhecimentos
+e experiências para alcançar objetivos comuns.
+–Objetivo: Fomentar habilidades sociais, como comunicação e trabalho em equipe, essenciais
+para o ambiente proﬁssional.
+•Uso de Tecnologias Educacionais
+–Descrição: Integração de ferramentas digitais e plataformas de aprendizado online para com-
+plementar as aulas e facilitar o acesso a recursos educacionais.
+–Objetivo: Modernizar o ensino e proporcionar ﬂexibilidade na aprendizagem, permitindo que
+os alunos aprendam no seu próprio ritmo.
+•Feedback Contínuo
+–Descrição: Avaliações formativas e feedback regular são fornecidos aos alunos para ajudá-los
+a identiﬁcar áreas de melhoria e a monitorar seu progresso.
+–Objetivo: Promover uma aprendizagem reﬂexiva e contínua, onde os alunos possam ajustar
+suas estratégias de estudo conforme necessário.
+•Mentoria e Acompanhamento
+–Descrição: Alunos têm acesso a mentores e tutores que oferecem orientação acadêmica e proﬁs-
+sional, ajudando-os a navegar por suas trajetórias educativas.
+–Objetivo: Apoiar o desenvolvimento pessoal e acadêmico, garantindo que os alunos se sintam
+apoiados em sua jornada.
+13.2.1 Acessibilidade Metodológica
+A acessibilidade metodológica é um aspecto crucial na educação, especialmente em instituições como a
+Universidade Federal de Itajubá (UNIFEI). Ela visa garantir que todos os alunos, independentemente
+de suas condições físicas, sensoriais ou cognitivas, tenham igual acesso ao aprendizado e às atividades
+acadêmicas. Aqui estão os principais pontos sobre a acessibilidade metodológica na UNIFEI:
+--- Pagina 26 ---
+22 13. FUNDAMENTOS DIÁTICO-PEDAGÓGICOS
+•Adaptação Curricular
+–Descrição: O currículo é adaptado para atender às necessidades de todos os alunos, incluindo
+aqueles com deﬁciências.
+–Objetivo: Garantir que todos possam participar plenamente das atividades acadêmicas, sem
+barreiras.
+•Uso de Recursos Tecnológicos
+–Descrição: Ferramentas e tecnologias assistivas são incorporadas ao ambiente de aprendizagem,
+como softwares de leitura de tela e legendas em vídeos.
+–Objetivo: Facilitar a comunicação e o acesso ao conteúdo para alunos com diferentes necessi-
+dades.
+•Formação de Professores
+–Descrição: Capacitação contínua dos docentes para que possam identiﬁcar e atender às neces-
+sidades de alunos com deﬁciência.
+–Objetivo: Sensibilizar e preparar os professores para implementar práticas inclusivas em suas
+aulas.
+•Ambientes Acessíveis
+–Descrição: As instalações físicas da universidade são projetadas ou adaptadas para serem
+acessíveis, incluindo rampas, sinalização adequada e banheiros adaptados.
+–Objetivo: Criar um espaço seguro e inclusivo para todos os alunos.
+•Apoio Psicológico e Acadêmico
+–Descrição: Disponibilização de serviços de apoio psicológico e tutoria acadêmica para auxiliar
+alunos com diﬁculdades especíﬁcas.
+–Objetivo: Oferecer suporte emocional e acadêmico, promovendo a permanência e o sucesso
+dos alunos.
+•Feedback e Avaliação Inclusiva
+–Descrição: Métodos de avaliação são diversiﬁcados para acomodar diferentes estilos de apren-
+dizagem e necessidades.
+–Objetivo: Garantir que todos os alunos possam demonstrar seu conhecimento e habilidades de
+maneiras que sejam justas e acessíveis.
+A acessibilidade metodológica na UNIFEI é um compromisso com a inclusão e a equidade educa-
+cional. Ao implementar essas práticas, a Universidade busca não apenas atender às exigências legais, mas
+também promover um ambiente de aprendizado onde todos os alunos possam prosperar. Essa abordagem
+reﬂete uma visão mais ampla de educação, que valoriza a diversidade e a participação de todos.
+13.2.2 Autonomia Discente
+A autonomia discente é um conceito fundamental no ambiente educacional, especialmente na Universidade
+Federal de Itajubá (UNIFEI). Refere-se à capacidade dos alunos de gerenciar sua própria aprendizagem,
+tomar decisões sobre seu percurso acadêmico e desenvolver habilidades críticas e reﬂexivas. Aqui estão
+os principais aspectos da autonomia discente na UNIFEI:
+•Promoção da Autonomia na Aprendizagem
+--- Pagina 27 ---
+13.2. ESTRATÉGIAS DE APRENDIZAGEM 23
+–Descrição: A UNIFEI incentiva os alunos a se tornarem protagonistas de sua própria apren-
+dizagem, promovendo a reﬂexão sobre seus métodos de estudo e a busca por conhecimentos
+de forma independente.
+–Objetivo: Fomentar um aprendizado ativo e responsável, onde os alunos se sintam empoderados
+para buscar informações e soluções.
+•Metodologias Ativas
+–Descrição: A utilização de metodologias ativas, como aprendizagem baseada em projetos e estu-
+dos de caso, permite que os alunos participem ativamente do processo de ensino-aprendizagem.
+–Objetivo: Estimular a iniciativa dos alunos, promovendo a colaboração e a troca de experiên-
+cias, além de desenvolver habilidades práticas.
+•Orientação e Apoio
+–Descrição: Professores e tutores oferecem orientação, mas incentivam a busca de soluções pelos
+próprios alunos, criando um ambiente de suporte que valoriza a independência.
+–Objetivo: Equilibrar o suporte acadêmico com a necessidade de os alunos tomarem decisões e
+resolverem problemas de forma autônoma.
+•Avaliação Formativa
+–Descrição: A avaliação é estruturada para fornecer feedback contínuo, permitindo que os alunos
+identiﬁquem suas fortalezas e áreas de melhoria.
+–Objetivo: Incentivar a autoavaliação e a reﬂexão crítica sobre o próprio desempenho, pro-
+movendo um aprendizado mais consciente.
+•Desenvolvimento de Habilidades Sociais e Emocionais
+–Descrição: A autonomia discente também envolve o desenvolvimento de habilidades sociais,
+como trabalho em equipe e comunicação, que são essenciais para o sucesso acadêmico e proﬁs-
+sional.
+–Objetivo: Preparar os alunos para interações eﬁcazes em ambientes colaborativos, tanto na
+universidade quanto no mercado de trabalho.
+•Flexibilidade Curricular
+–Descrição: A UNIFEI oferece opções de eletivas e atividades extracurriculares que permitem
+aos alunos personalizar seu percurso acadêmico de acordo com seus interesses e objetivos.
+–Objetivo: Facilitar a exploração de diferentes áreas do conhecimento, promovendo um apren-
+dizado mais alinhado com as aspirações individuais.
+A autonomia discente na UNIFEI é essencial para a formação de proﬁssionais críticos e prepara-
+dos para enfrentar os desaﬁos do mundo contemporâneo. Ao promover um ambiente que valoriza a
+independência e a responsabilidade, a universidade não apenas enriquece a experiência acadêmica, mas
+também contribui para o desenvolvimento integral dos discentes.
+--- Pagina 28 ---
+14
+SISTEMA DE AVALIAÇÃO
+14.1 Avaliação do discente
+O sistema de avaliação do discente na Universidade Federal de Itajubá (UNIFEI) é projetado para medir o
+desempenho acadêmico dos alunos de forma justa e abrangente. A seguir, estão os principais componentes
+desse sistema:
+•Avaliação Formativa
+–Descrição: A avaliação formativa é contínua e busca acompanhar o progresso do aluno ao longo
+do semestre. Inclui atividades como trabalhos, projetos e apresentações.
+–Objetivo: Proporcionar feedback constante, permitindo que os alunos identiﬁquem suas diﬁ-
+culdades e fortalezas.
+•Avaliação Somativa
+–Descrição: Realizada ao ﬁnal de cada período letivo, a avaliação somativa geralmente consiste
+em provas e exames que medem o conhecimento adquirido pelos alunos.
+–Objetivo: Determinar a aprovação ou reprovação do aluno em uma disciplina, com base no
+desempenho global.
+•Diversiﬁcação dos Instrumentos de Avaliação
+–Descrição: A UNIFEI utiliza uma variedade de métodos de avaliação, incluindo:
+–Provas escritas
+–Trabalhos em grupo
+–Relatórios de pesquisa
+–Projetos práticos
+–Objetivo: Atender diferentes estilos de aprendizagem e proporcionar oportunidades para que
+todos os alunos demonstrem seu conhecimento.
+•Critérios de Avaliação Claros
+–Descrição: Os critérios de avaliação são deﬁnidos previamente e comunicados aos alunos,
+garantindo transparência e equidade no processo avaliativo.
+–Objetivo: Permitir que os alunos saibam exatamente o que é esperado deles e como serão
+avaliados.
+•Autoavaliação e Reﬂexão
+–Descrição: Os alunos são incentivados a realizar autoavaliações, reﬂetindo sobre seu próprio
+aprendizado e progresso.
+–Objetivo: Promover a autonomia e a responsabilidade pelo próprio aprendizado.
+•Consideração de Aspectos Qualitativos
+24
+--- Pagina 29 ---
+14.2. AVALIAÇÃO EXTERNA À UNIVERSIDADE 25
+–Descrição: Além das notas, aspectos qualitativos como participação em aula, colaboração em
+grupo e engajamento em atividades extracurriculares também são considerados na avaliação.
+–Objetivo: Valorizar a formação integral do aluno, indo além do desempenho acadêmico estrito.
+O sistema de avaliação do discente na UNIFEI é estruturado para ser inclusivo, reﬂexivo e
+adaptável às necessidades dos alunos. Ele busca não apenas medir o conhecimento, mas também promover
+o desenvolvimento de habilidades críticas e sociais, preparando os alunos para os desaﬁos do mercado de
+trabalho e da vida proﬁssional. Essa abordagem integrada assegura que a avaliação contribua efetivamente
+para o processo de aprendizagem.
+14.2 Avaliação externa à universidade
+As avaliações externas são estabelecidas pelo Sistema Nacional de Avaliação da Educação Superior
+(SINAES) instituído pela Lei 10.861, de 14 de abril de 2004. Sendo os principais aspectos relaciona-
+dos às avaliações externas no contexto do SINAES:
+•Objetivos do SINAES
+–Avaliação da Qualidade: O SINAES tem como objetivo principal assegurar a qualidade da
+educação superior, avaliando tanto as instituições quanto os cursos oferecidos.
+–Transparência e Melhoria: Promover a transparência nas informações sobre as instituições e
+incentivar a melhoria contínua da qualidade educacional.
+•Componentes do SINAES
+–Avaliação Institucional: Envolve a análise da gestão, infraestrutura, corpo docente e a ade-
+quação dos recursos disponíveis para o ensino.
+–Avaliação de Cursos: Avalia a qualidade dos cursos oferecidos, considerando aspectos como
+currículo, metodologias de ensino e resultados de aprendizagem.
+–Avaliação do Desempenho dos Estudantes: Inclui a análise do desempenho acadêmico dos
+alunos, medido por meio de exames e outras avaliações.
+•Instrumentos de Avaliação
+–Visitas In Loco: Avaliadores do Ministério da Educação (MEC) realizam visitas às instituições
+para veriﬁcar as condições de ensino e infraestrutura.
+–Relatórios de Autoavaliação: As instituições são incentivadas a elaborar relatórios que reﬂitam
+sua autoavaliação, destacando pontos fortes e áreas que necessitam de melhoria.
+–Exames e Testes: Utilização de exames como o ENADE (Exame Nacional de Desempenho de
+Estudantes) para avaliar o conhecimento dos alunos em relação aos conteúdos dos cursos.
+•Resultados e Consequências
+–Classiﬁcação das Instituições: Os resultados das avaliações podem impactar a classiﬁcação das
+instituições no cenário nacional, inﬂuenciando a percepção pública e a captação de alunos.
+–Apoio e Recursos: Instituições com melhor desempenho podem ter acesso a mais recursos e
+apoio do governo para programas de melhoria.
+–Planos de Ação: Instituições que não atingem os padrões de qualidade estabelecidos são in-
+centivadas a desenvolver planos de ação para corrigir deﬁciências.
+•Importância da Avaliação
+--- Pagina 30 ---
+26 14. SISTEMA DE AVALIAÇÃO
+–Melhoria Contínua: As avaliações externas são fundamentais para o processo de melhoria
+contínua da qualidade da educação superior, permitindo que as instituições se adaptem às
+necessidades do mercado e da sociedade.
+–Responsabilidade Social: As instituições são responsabilizadas pela formação de proﬁssionais
+competentes, contribuindo para o desenvolvimento social e econômico do país.
+O SINAES desempenha um papel crucial na garantia da qualidade da educação superior no
+Brasil, incluindo a UNIFEI. As avaliações externas não apenas fornecem um diagnóstico da situação
+atual, mas também orientam as instituições na busca por melhorias contínuas, alinhando-se às demandas
+da sociedade e do mercado de trabalho.
+14.3 Avaliação interna à universidade e do docente
+A Universidade Federal de Itajubá (UNIFEI) implementa diversos mecanismos de avaliação interna para
+garantir a qualidade dos cursos oferecidos e o desempenho dos discentes. Esses mecanismos são funda-
+mentais para promover a melhoria contínua e a adequação às diretrizes do SINAES. A seguir estão os
+principais aspectos:
+•Autoavaliação Institucional
+–Descrição: A UNIFEI realiza processos de autoavaliação periódicos, onde a instituição analisa
+seus próprios métodos, resultados e práticas acadêmicas.
+–Objetivo: Identiﬁcar pontos fortes e áreas que necessitam de melhorias, promovendo um ciclo
+de feedback que contribua para o aprimoramento da qualidade educacional.
+•Avaliação de Cursos
+–Descrição: Cada curso é avaliado em relação a critérios especíﬁcos, que incluem a qualidade
+do corpo docente, infraestrutura, currículo, e a adequação das metodologias de ensino.
+–Objetivo: Garantir que os cursos atendam às necessidades dos alunos e do mercado de trabalho,
+além de promover a atualização constante dos conteúdos.
+•Comissão de Avaliação
+–Descrição: A UNIFEI conta com comissões internas que são responsáveis por realizar avaliações
+sistemáticas dos cursos e da instituição como um todo.
+–Objetivo: Propor melhorias e acompanhar a implementação de ações corretivas com base nos
+resultados das avaliações.
+•Feedback dos Alunos
+–Descrição: Os alunos são incentivados a fornecer feedback sobre as disciplinas, professores e a
+infraestrutura da universidade.
+–Objetivo: Coletar informações valiosas que ajudem na identiﬁcação de problemas e na formu-
+lação de estratégias para melhorias.
+•Relatórios de Desempenho
+–Descrição: A instituição elabora relatórios que analisam o desempenho acadêmico dos alunos,
+levando em consideração taxas de aprovação, retenção e conclusão.
+–Objetivo: Monitorar a eﬁcácia dos métodos de ensino e identiﬁcar tendências que possam
+indicar a necessidade de intervenções.
+--- Pagina 31 ---
+14.3. AVALIAÇÃO INTERNA À UNIVERSIDADE E DO DOCENTE 27
+•Integração com o SINAES
+–Descrição: A avaliação interna está alinhada com os critérios e diretrizes do SINAES, assegu-
+rando que a UNIFEI atenda aos padrões de qualidade exigidos pelo Ministério da Educação
+(MEC).
+–Objetivo: Facilitar a preparação para avaliações externas e garantir a conformidade com as
+normas nacionais de educação superior.
+•Ações de Melhoria Contínua
+–Descrição: Com base nas avaliações e feedbacks, a UNIFEI implementa ações de melhoria
+contínua que podem incluir capacitação de docentes, revisão de currículos e melhorias na
+infraestrutura.
+–Objetivo: Promover um ambiente educacional que favoreça a aprendizagem e o desenvolvi-
+mento integral dos alunos.
+Os mecanismos de avaliação interna da UNIFEI são essenciais para assegurar a qualidade da
+educação oferecida. Eles não apenas ajudam a identiﬁcar áreas de melhoria, mas também garantem que
+a universidade se mantenha alinhada às melhores práticas e exigências do setor educacional, promovendo
+a formação de proﬁssionais qualiﬁcados e preparados para o mercado de trabalho.
+--- Pagina 32 ---
+15
+ALINHAMENTO AO PDI
+O Plano de Desenvolvimento Institucional (PDI) da Universidade Federal de Itajubá (UNIFEI) estabelece
+diretrizes e políticas que orientam a gestão acadêmica e administrativa da instituição. No âmbito dos
+cursos oferecidos, a implementação dessas políticas é fundamental para garantir a qualidade do ensino e
+a formação integral dos alunos. A seguir estão os principais aspectos relacionados à implementação das
+políticas do PDI no contexto dos cursos da UNIFEI:
+•Objetivos do PDI
+–Qualidade Acadêmica: As políticas do PDI visam garantir a excelência acadêmica, promovendo
+a formação de proﬁssionais competentes e éticos.
+–Inclusão e Acessibilidade: O PDI enfatiza a importância de políticas de inclusão, buscando
+atender a grupos historicamente marginalizados e garantindo acessibilidade a todos os alunos.
+•Desenvolvimento Curricular
+–Revisão e Atualização de Currículos: Os cursos devem passar por revisões periódicas para se
+manterem atualizados em relação às demandas do mercado de trabalho e às inovações na área
+de conhecimento.
+–Integração de Conhecimentos: O PDI propõe a integração entre teoria e prática, incentivando
+a realização de estágios e atividades práticas que complementem a formação teórica.
+•Formação e Capacitação de Docentes
+–Programas de Capacitação: O PDI inclui ações voltadas para a formação continuada dos
+docentes, visando melhorar as metodologias de ensino e a abordagem pedagógica.
+–Avaliação de Desempenho: A avaliação do desempenho docente é uma prática constante, com
+feedbacks que visam a melhoria contínua da qualidade do ensino.
+•Gestão de Recursos e Infraestrutura
+–Investimentos em Infraestrutura: O PDI prevê investimentos em laboratórios, bibliotecas e
+outros recursos que suportem a formação dos alunos.
+–Gestão Eﬁciente: A gestão dos recursos deve ser feita de maneira eﬁciente, assegurando que
+os alunos tenham acesso a condições adequadas para o aprendizado.
+•Avaliação e Monitoramento
+–Avaliações Periódicas: O PDI estabelece que os cursos devem ser avaliados regularmente,
+utilizando indicadores de desempenho que permitam monitorar a qualidade do ensino e a
+satisfação dos alunos.
+–Feedback dos Alunos: A coleta de feedback dos alunos é incentivada, permitindo que a insti-
+tuição identiﬁque áreas que necessitam de melhorias.
+•Promoção da Pesquisa e Extensão
+28
+--- Pagina 33 ---
+29
+–Integração entre Ensino, Pesquisa e Extensão: O PDI promove a relação entre ensino, pesquisa
+e extensão, incentivando que os alunos participem de projetos de pesquisa e atividades de
+extensão que complementem sua formação.
+–Financiamento de Projetos: A UNIFEI busca recursos para ﬁnanciar projetos de pesquisa e
+extensão, promovendo a inovação e o desenvolvimento social.
+A implementação das políticas institucionais do PDI da UNIFEI no âmbito dos cursos é essencial
+para garantir uma formação de qualidade, alinhada às necessidades da sociedade e do mercado de trabalho.
+Essas políticas não apenas promovem a excelência acadêmica, mas também asseguram que a universidade
+cumpra sua função social, contribuindo para a formação de cidadãos críticos e preparados para enfrentar
+os desaﬁos contemporâneos.
+--- Pagina 34 ---
+16
+RECURSOS
+16.1 Corpo docente e técnico
+O corpo docente da UNIFEI é constituído por 502 professores, dos quais 457 são doutores (91%) e 389
+servidores técnico-administrativos em educação.
+O Instituto de Engenharia de Produção e Gestão (IEPG), localizado no campus de Itajubá, que
+irá abrigar o curso de Ciência de Dados Aplicada, possui um corpo docente formado por 51 professores,
+dos quais 48 são doutores (94%). Para este novo curso será necessária a contratação de 14 (quatorze)
+novos docentes por meio de concurso público, de modo a atender a toda a sua grade curricular com
+novas disciplinas. As contratações são programadas para ingresso dos novos docentes considerando a
+implantação do curso:
+•Início do curso: 4 docentes
+•Primeiro ano após o início: 4 docentes
+•Segundo ano após o início: 3 docentes
+•Terceiro ano após o início: 3 docentes
+16.2 Apoio pedagógico
+O apoio pedagógico se dará em quatro frentes distintas:
+•Biblioteca física: Biblioteca Mauá (campus Itajubá). Além da biblioteca virtual de livros eletrônicos
+(Pearson, em português e inglês), Cengage Learning, acesso às Normas da ABNT e acesso ao Portal
+de Periódicos da Capes.
+•Maker space: onde os alunos podem prototipar suas ideias, em projetos de “mão na massa” .
+•Laboratórios: Inovação de Produtos e Inteligência Artiﬁcial, onde os alunos podem praticar o
+conteúdo visto em sala de aula, que ﬁcam no prédio do grupo de pesquisa do Núcleo de Otimização
+da Manufatura e Tecnologia da Inovação (NOMATI). Esse prédio e os laboratórios entram como
+contrapartida da UNIFEI para a realização do novo curso.
+•Prédio do Centro de Empreendedorismo: o prédio foi construído e inaugurado no ﬁnal de 2024
+com recursos do Governo do Estado de Minas Gerais e ainda não foi ocupado. Possui uma área
+de aproximadamente 5.000 m2 e o curso e seus diferenciais acadêmicos e extensionistas serão re-
+alizados nesse local, inclusive os novos professores contratados terão seus gabinetes no prédio, que
+acomodará novos laboratórios para uso pelos alunos do curso e com a comunidade do município, em
+especial, alunos dos cursos fundamental II e médio das escolas públicas estaduais e municipais, que
+irão interagir com os projetos de competição tecnológica, empresas juniores, alunos de graduação,
+visando melhorar a formação desses jovens e já familiarizá-los com o ambiente universitário, de
+modo que tenham em seus planos fazer um curso superior, em especial, o novo curso de Ciência
+30
+--- Pagina 35 ---
+16.3. APOIO AOS DISCENTES 31
+de Dados Aplicada (ou outro curso oferecido pela UNIFEI). Essa será mais uma contrapartida da
+UNIFEI para a realização do novo curso.
+16.3 Apoio aos discentes
+A UNIFEI possui programa de iniciação cientíﬁca que conta com cotas de bolsas do PIBIC/CNPq, do
+PIBIC/FAPEMIG, além de bolsas da própria instituição.
+A Universidade possui, ainda, 10 (dez) programas PETs/CAPES em atividade, além de Empresas
+Juniores e vários projetos de competição tecnológica. Dois desses programas PET são de cursos de
+graduação do IEPG e atuam com empreendedorismo e inovação. Além deles, o IEPG conta com uma
+empresa júnior dos cursos de Engenharia de Produção, Administração e Design (futuramente, os discentes
+do curso de Ciência de Dados Aplicada irão poder fazer parte dessa empresa júnior, uma das maiores da
+Universidade em termos de faturamento por conta dos serviços prestados).
+Essa gama toda de atividades extracurriculares pode ser disponibilizada também para os discentes
+do Curso de Engenharia em Transformação Digital, propiciando uma formação bastante diversiﬁcada,
+propiciando ao discente oportunidades de praticarem o conteúdo aprendido em sala de aula em diversos
+projetos de competição ou extensão tecnológica. Some-se a isso tudo o Centro de Empreendedorismo
+UNIFEI (CEU) do campus de Itajubá que, juntamente com a incubadora de empresas de base tecnológ-
+ica localizada dentro do campus de Itajubá, proporcionam ambientes favoráveis ao desenvolvimento das
+habilidades para empreender, essenciais para o sucesso do curso, uma vez que os discentes podem de-
+senvolver soluções para empresas e para o mercado, estas últimas na forma de abertura de startups que
+serão concebidas no Centro de Empreendedorismo e, posteriormente, incubadas na Incubadora de Base
+Tecnológica de Itajubá (INCIT), uma das maiores incubadoras de Minas Gerais, com prêmios nacionais
+recebidos por seus resultados.
+16.4 Cooperações e parcerias
+A UNIFEI mantém cooperação ativa com aproximadamente 80 instituições universitárias estrangeiras,
+distribuídas em 22 países da Europa, América do Norte, América do Sul, América Central, Ásia e África,
+ampliando oportunidades de internacionalização, mobilidade acadêmica e participação em projetos mul-
+tidisciplinares de alto impacto. A tradição centenária da UNIFEI em engenharias, aliada ao histórico de
+parcerias com grandes empresas como Petrobras,
+Vale, Cemig, Embraer e diversas indústrias de base tecnológica, cria um ecossistema ideal para
+projetos reais, estágios, pesquisa aplicada e desenvolvimento de soluções. Além disso, o município de
+Itajubá conta atualmente com um robusto ecossistema de inovação, denominado de Itajubá Hardtech,
+premiado em 2023 como o melhor ecossistema de inovação para cidades de médio porte (CNI/SEBRAE).
+Esse ecossistema possui diversas demandas que os alunos do novo curso podem atender, melhorando sua
+formação acadêmica, no formato hands-on.
+O curso de Ciência de Dados Aplicada será naturalmente integrado às atividades do IEPG e
+NOMATI, possibilitando vivência prática em pesquisa aplicada, inovação aberta, desenvolvimento de
+produtos e participação em desaﬁos industriais. Essas cooperações fortalecem a formação do estudante e
+garantem que o curso se mantenha conectado às demandas reais da Indústria 4.0 e dos setores emergentes.
+--- Pagina 36 ---
+17
+ESTRUTURA CURRICULAR
+A estrutura curricular do Bacharelado em Ciência de Dados Aplicada foi organizada de forma a garantir
+a formação integral do estudante, combinando fundamentos teóricos, habilidades práticas aplicadas a
+uma trilha de conhecimento. O curso possui 8 períodos, com carga horária total aproximada de 3.870
+horas.aula (3.225 horas.relógio), conforme normas institucionais da UNIFEI. Todas as disciplinas são
+organizadas a partir de três eixos formativos que se articulam ao longo dos semestres, permitindo ao
+estudante avançar de fundamentos conceituais para aplicações especializadas:
+1.Núcleo de Conteúdos Básicos e Técnicos
+Compreende as disciplinas fundamentais de matemática, estatística, computação, ciência de da-
+dos, engenharia de dados e machine learning. Abrange todas as disciplinas obrigatórias ofertadas entre
+o primeiro e o sexto semestre, e fornece a base conceitual e prática sobre a qual se estruturam as trilhas
+aplicadas e os projetos integradores. Esse núcleo consolida as competências analíticas, computacionais e
+metodológicas essenciais ao cientista de dados.
+2.Disciplinas Aplicadas às Trilhas Temáticas
+O curso oferece três trilhas de especialização — Saúde, Esporte e Gestão — nas quais os estu-
+dantes aplicam os conhecimentos básicos e técnicos a contextos reais. As trilhas incluem:
+•Componentes obrigatórios vinculados aos Projetos Integradores (PI 1 no quarto semestre e PI 2 no
+sexto semestre), nos quais problemas reais das trilhas são estruturados e solucionados.
+•Componentes optativos, cursados a partir do sexto semestre, dos quais o estudante deve cumprir no
+mínimo 12 horas-aula em três disciplinas, completando uma trilha com cinco disciplinas aplicadas
+ao tema escolhido.
+Esse eixo promove a contextualização prática dos conteúdos técnicos, o desenvolvimento de
+soluções orientadas por dados e a formação por áreas de interesse.
+3.Disciplinas Complementares de Gestão
+Reúne componentes obrigatórios voltados à formação em gestão empresarial, gestão da produção
+e inovação, essenciais para proﬁssionais que atuarão na interface entre análise de dados, processos orga-
+nizacionais e decisões estratégicas. São componentes deste eixo: Gestão Ágil de Projetos, Planejamento
+e Controle da Produção, Indústria 4.0, Engenharia da Qualidade, Engenharia Econômica e Criação de
+Negócio.
+Essas disciplinas são ofertadas entre o primeiro e o sexto semestre e visam desenvolver competên-
+cias gerenciais necessárias para a viabilização de soluções, produtos, startups e aplicações resultantes dos
+conteúdos técnicos e das trilhas.
+32
+--- Pagina 37 ---
+33Semestre 1 CH Semestre 2 CH Semestre 3 CH Semestre 4 CH Semestre 5 CH Semestre 6 CH Semestre 7 CH Semestre 8 CH
+Cálculo A 4 Cálculo B 4Cálculo C 4Projeto
+Integrador 16Estatística
+Multivariada3Projeto
+Integrador 26TCC 1 - TCC 2 -
+Análise
+Exploratória
+de Dados3 Álgebra
+Linear Com-
+putacional3Otimização 1 3Otimização 2 3Automação
+Low-Code e
+Integração de
+Dados4Engenharia
+Econômica3Engenharia
+da Qualidade3 Estágio Su-
+pervisionado-
+Probabilidade
+e Estatística3 Inferência
+Estatística2Machine
+Learning 13Machine
+Learning 23Machine
+Learning 32Metaheuristicas 3Agentes de IA 3 - -
+Introdução a
+Ciência de
+Dados3 Estrutura de
+Dados e
+Algoritmos3Engenharia
+de Dados2Análise e Pro-
+cessamento
+de Sinais 13Análise e Pro-
+cessamento
+de Sinais 23Disciplinas
+Optativas
+(Trilhas do
+Curso)3Disciplinas
+Optativas
+(Trilhas do
+Curso)3 - -
+Programação
+13 Programação
+23Engenharia
+de Software3Computação
+em Núvem3Big Data e
+Processa-
+mento
+Distribuído3Disciplinas
+Optativas
+(Trilhas do
+Curso)3Disciplinas
+Optativas
+(Trilhas do
+Curso)3 - -
+Engenharia
+da Transfor-
+mação Digital3 Visualização
+de Dados3Banco de
+Dados 12Banco de
+Dados 23Ética e
+Governança
+de Dados3Projeto e
+Análise de
+Experimentos3Disciplinas
+Optativas
+(Gerais)3 - -
+- - Técnicas de
+Amostragem2Gestão Ágil
+de Projetos2Séries
+Temporais3Modelos em
+Painel e
+Instrumentos3Visão Com-
+putacional3- - - -
+--- Pagina 38 ---
+34 17. ESTRUTURA CURRICULAR
+Considerando os 8 semestres previstos para o curso, o currículo compreende 3.870 horas.aula
+(3.225 horas.relógio). Toda sua estrutura foi projetado de forma a balancear as várias unidades de
+estudo. A previsão é de haver entre 6 e 7 disciplinas por semestre.
+Com a ﬁnalidade de fortalecer a integração do estudante com os temas característicos da Admin-
+istração e da Engenharia de Produção — áreas estruturantes do Instituto de Engenharia de Produção e
+Gestão (IEPG) — o curso adota como optativas todas as disciplinas optativas ofertadas pelos cursos de
+Administração e Engenharia de Produção. Além disso, no sétimo semestre o estudante deverá obrigato-
+riamente cursar ao menos uma disciplina optativa que não pertença às trilhas temáticas. Essa diretriz
+amplia sua vivência acadêmica para além do eixo técnico, estimula a transversalidade entre os cursos do
+instituto e promove uma formação interdisciplinar e aplicada, alinhada às demandas contemporâneas de
+proﬁssionais capazes de articular conhecimentos de dados, gestão e processos organizacionais.
+17.1 Projeto Integrador
+Os projetos integradores têm como foco a aplicação prática dos conhecimentos adquiridos ao longo do
+curso, promovendo a interdisciplinaridade e preparando os alunos para os desaﬁos do mercado de trabalho.
+A participação em projetos reais também estimula o desenvolvimento de habilidades como trabalho em
+equipe, comunicação e resolução de problemas. Em ambas as disciplinas, os projetos são voltados ao
+desenvolvimento de atividades de extensão, o que demonstra a preocupação do PPC em introduzir de
+forma estruturada a extensão universitária na grade curricular, reforçando seu caráter formativo, social
+e aplicado.
+•Projeto Integrador 1 - Análise de dados em tempo real : Esta disciplina tem por ﬁnali-
+dade desenvolver um sistema que permita a coleta, análise e visualização de dados em tempo real,
+aplicando técnicas de ciência de dados e machine learning.
+–Estrutura do Projeto :
+–Introdução: Contextualização do problema a ser resolvido e importância da análise de dados
+em tempo real em setores escolhidos pelos alunos de acordo com as trilhas de aprendizagem.
+–Coleta de Dados: Deﬁnição das fontes de dados (APIs, sensores, bancos de dados).
+–Processamento de Dados: Utilização de ferramentas como Python, R ou plataformas como
+Apache Kafka para o processamento em tempo real.
+–Modelagem: Aplicação de algoritmos de machine learning para prever tendências ou compor-
+tamentos.
+–Implementação: desenvolvimento do sistema de coleta e análise; criação de dashboards inter-
+ativos utilizando ferramentas como Tableau ou Power BI.
+–Resultados Esperados: relatório detalhando a eﬁciência do sistema e visualizações que demon-
+strem insights obtidos a partir dos dados analisados.
+–Conclusão: reﬂexão sobre o aprendizado e a aplicabilidade do projeto no mercado de trabalho.
+–Apresentação: apresentação oral do projeto para a turma e professores, com demonstração
+prática do sistema desenvolvido.
+•Projeto Integrador 2 - Soluções de Machine Learning : Esta disciplina tem por objetivo
+criar uma solução que utilize machine learning para abordar um problema real especíﬁco da trilha
+de aprendizagem.
+--- Pagina 39 ---
+17.2. TRABALHO DE CONCLUSÃO DE CURSO 35
+–Estrutura do Projeto :
+–Introdução: Identiﬁcação, justiﬁcativa e relevância do problema a ser abordado.
+–Metodologia:
+–Pesquisa e Levantamento de Dados: Coleta de dados relevantes (ex: dados de saúde, índices
+de criminalidade).
+–Análise Exploratória: Uso de técnicas de visualização para entender os dados.
+–Desenvolvimento do Modelo: Escolha do algoritmo apropriado (ex: regressão, classiﬁcação) e
+treinamento do modelo.
+–Implementação: criação de um protótipo da solução, como um aplicativo ou uma plataforma
+web com integração do modelo de machine learning na solução proposta.
+–Resultados Esperados: avaliação do modelo com métricas apropriadas (ex: precisão, recall) e
+impacto esperado da solução no problema social identiﬁcado.
+–Conclusão: discussão sobre os desaﬁos enfrentados durante o desenvolvimento e possíveis mel-
+horias.
+–Apresentação: apresentação do projeto, destacando a importância da ciência de dados na
+solução de problemas sociais e a eﬁcácia da solução proposta.
+17.2 Trabalho de Conclusão de Curso
+O Trabalho de Conclusão de Curso (TCC) é uma etapa fundamental na formação dos alunos da Univer-
+sidade Federal de Itajubá (UNIFEI). Ele representa a culminação do aprendizado e a aplicação prática
+dos conhecimentos adquiridos ao longo do curso. A seguir, são apresentados os principais aspectos rela-
+cionados ao TCC na UNIFEI:
+1.Objetivo do TCC
+•Integração do Conhecimento: O TCC visa integrar os conhecimentos teóricos e práticos adquiridos
+durante o curso, permitindo que os alunos demonstrem sua capacidade de pesquisa, análise e síntese.
+•Desenvolvimento de Competências: Os alunos desenvolvem competências essenciais, como pesquisa,
+escrita acadêmica, apresentação oral e trabalho em equipe.
+O Trabalho de Conclusão de Curso (TCC) segue as normas para Trabalho de Conclusão de Curso
+publicadas no Anexo C da Norma de Graduação alterada pelo CEPEAd em 12/12/2018.
+No que se refere às regras especíﬁcas das componentes curriculares TCC1 e TCC2, este documento
+estabelece:
+•O período de matrícula no componente curricular TCC é de até 15 dias após o início das aulas
+estabelecido no calendário acadêmico do semestre.
+•As modalidades de trabalhos aceitos são monograﬁa ou artigo.
+•Os formatos dos trabalhos aceitos são: (i) para monograﬁas o modelo ABNT e (ii) para artigos
+nos modelos da SBC ou dos periódicos IEEE. Caso o artigo já tenha sido aprovado e publicado em
+revistas/eventos com Qualis, ele poderá ser entregue no formato da publicação.
+--- Pagina 40 ---
+36 17. ESTRUTURA CURRICULAR
+•Os trabalhos do TCC1 serão apresentados a uma banca examinadora. O documento apresentado
+à banca deverá conter, pelo menos: (i) os objetivos, (i) revisão bibliograﬁa e/ou fundamentação
+teórica, (iii) descrição da metodologia de pesquisa e (iv) cronograma para o TCC2.
+•As bancas examinadoras do TCC1 e TCC2 serão compostas por dois examinadores e pelo professor
+orientador, sendo os examinadores escolhidos pelo orientador e aluno.
+•A validação de Trabalhos de Conclusão de Curso externos é realizada pelo Colegiado do Curso.
+•Trabalhos de conclusão de curso com publicações segundo classiﬁcação Capes com Qualis nas áreas
+de Engenharia ou Computação, cujos autores sejam limitados ao discente orientado do TCC e
+aos orientadores, são aceitos como TCC, dispensando a banca examinadora no TCC1 e TCC2.
+A validação da área da publicação deverá ser realizada pelo Colegiado do Curso. Neste caso, o
+discente, para ser dispensado da banca examinadora, deve ser o primeiro autor do artigo. Entende-
+se como orientadores os outros autores que exercem a função de docência ou possuem experiência
+reconhecida na área do trabalho.
+•O Trabalho de conclusão de curso será desenvolvido individualmente.
+17.3 Atividades de extensão
+As diretrizes de extensão da Unifei são alinhadas com sua missão no que se refere a promover a integração
+entre ensino, pesquisa e extensão. Estando em conformidade com a Lei de Diretrizes e Bases da Educação
+Nacional (LDB) e as resoluções do Conselho Nacional de Educação (CNE), que orientam a prática da
+extensão universitária como uma função essencial das instituições de ensino.
+Assim a norma para curricularização das atividades de extensão da Unifei deﬁne que Extensão na
+Educação Superior Brasileira é a atividade que se integra à matriz curricular e à organização da pesquisa,
+constituindo-se em processo interdisciplinar, político, educacional, cultural, cientíﬁco, tecnológico, que
+promove a interação transformadora entre as instituições de ensino superior e os outros setores da so-
+ciedade, por meio da produção e da aplicação do conhecimento, em articulação permanente com o ensino
+e a pesquisa.
+As atividades de extensão na Unifei deverão compor, no mínimo, 10% (dez por cento) do total
+da carga horária curricular de cada curso de graduação, as quais farão parte das matrizes curriculares
+dos cursos e deverão estar descritas em seus Projetos Pedagógicos.
+Para efeitos de caracterização nos Projetos Pedagógicos dos Cursos de Graduação da Unifei, as
+atividades de extensão devem se inserir nas modalidades:
+•Programa: é um conjunto de atividades integradas, de médio e longo prazo, orientadas a um objetivo
+comum e que visam à articulação de projetos e outras atividades de extensão, cujas diretrizes e
+escopo de interação com a sociedade integram-se às linhas de ensino e pesquisa desenvolvidas pela
+UNIFEI, nos termos do Regimento Geral e do Plano de Desenvolvimento Institucional 2019-2023;
+•Projeto: é a ação de caráter educativo, social, cultural, cientíﬁco, tecnológico ou de inovação tec-
+nológica, com objetivo especíﬁco e prazo determinado, vinculado ou não a um programa;
+•Curso/oﬁcina: é um conjunto articulado de atividades pedagógicas, de caráter teórico e/ou prático,
+nas modalidades presencial ou a distância, seja para a formação continuada, aperfeiçoamento ou
+disseminação do conhecimento, planejado, organizado e avaliado de modo sistemático, com carga
+horária e critérios de avaliação bem deﬁnidos;
+•Evento: é a ação de curta duração que implica a apresentação e/ou exibição pública, livre ou com
+clientela especíﬁca do conhecimento ou produto cultural, artístico, esportivo, cientíﬁco e tecnológico
+--- Pagina 41 ---
+17.4. TRILHAS DE APRENDIZAGEM 37
+desenvolvido, conservado ou reconhecido pela UNIFEI;
+•Prestação de serviços: refere-se ao estudo e à solução de problemas dos meios proﬁssional ou social
+e ao desenvolvimento de novas abordagens pedagógicas e de pesquisa, bem como a transferência de
+conhecimentos e tecnologia à sociedade.
+No contexto do presente curso, as atividades de extensão serão incorporadas de forma estruturada
+e integrada ao percurso formativo dos estudantes, garantindo que a prática extensionista não seja tratada
+apenas como um componente isolado, mas como um eixo articulador entre conhecimento acadêmico, apli-
+cação prática e impacto social. Para isso, o curso promoverá projetos e ações que envolvam diretamente
+comunidades, empresas, instituições públicas e organizações sociais, permitindo que os alunos utilizem
+ferramentas de ciência de dados, inteligência artiﬁcial, engenharia de dados e análise estatística para
+resolver problemas reais. Dessa forma, a extensão assumirá papel ativo na formação proﬁssional, estimu-
+lando o desenvolvimento de competências como comunicação, trabalho em equipe, ética, responsabilidade
+socioambiental, visão sistêmica e inovação tecnológica.
+Além disso, as atividades de extensão serão distribuídas ao longo dos semestres, podendo ser vin-
+culadas tanto a disciplinas especíﬁcas quanto a projetos integradores, estágios e ações extracurriculares
+reconhecidas pela coordenação do curso. Serão incentivadas variadas modalidades, como cursos de capac-
+itação para a comunidade, desenvolvimento de soluções tecnológicas em parceria com setores produtivos,
+participação em eventos cientíﬁcos e tecnológicos, consultorias orientadas, além da atuação em programas
+institucionais de apoio ao ensino e à inovação. Essa abordagem permitirá que os estudantes vivenciem
+a universidade como agente transformador da sociedade, fortalecendo a indissociabilidade entre ensino,
+pesquisa e extensão, e garantindo o cumprimento das diretrizes da Unifei e da legislação nacional sobre
+curricularização da extensão.
+17.4 Trilhas de Aprendizagem
+As trilhas de aprendizagem constituem um eixo formativo que permite ao estudante direcionar sua tra-
+jetória acadêmica conforme seus interesses proﬁssionais e áreas de aﬁnidade. No curso de Ciência de Dados
+Aplicada, as trilhas representam percursos temáticos estruturados que articulam a aplicação prática dos
+conteúdos técnicos aprendidos nos primeiros semestres a contextos reais de atuação. São ofertadas três
+trilhas: Saúde, Esporte e Gestão. Cada trilha tematiza um conjunto de desaﬁos contemporâneos nesses
+setores, permitindo que o aluno compreenda fenômenos, estruturas, processos e métricas próprias de cada
+domínio.
+Na trilha Saúde, o foco recai sobre dados biomédicos, sistemas assistenciais e aplicações preditivas
+voltadas ao cuidado e à gestão hospitalar.
+DISCIPLINAS CH
+Data Analytics Aplicado à Saúde 48
+Machine Learning e Padrões em Saúde 48
+Análise de Imagens Médicas com IA 48
+Tópicos Especiais: Fontes de Dados da Saúde 48
+A trilha Esporte explora análises de desempenho, biomecânica, monitoração de atletas e soluções
+baseadas em dados para ciência do movimento.
+--- Pagina 42 ---
+38 17. ESTRUTURA CURRICULAR
+DISCIPLINAS CH
+Data Analytics Aplicado ao Esporte 48
+Machine Learning para Preciﬁcação de Atletas 48
+Machine Learning para Carga de Treino e Prevenção de Lesões 48
+Scouting com Machine Learning 48
+Tópicos Especiais: Fontes de Dados no Esporte 48
+Tópicos Especiais: Visualização de Dados no Esporte 48
+Já a trilha Gestão enfatiza processos organizacionais, tomada de decisão, otimização de recursos
+e soluções analíticas aplicadas a ambientes corporativos e públicos.
+DISCIPLINAS CH
+Data Analytics Aplicado à Gestão 48
+Ciência de Dados para Gestão de Portfólios 48
+Ciência de Dados para Análise de Conjuntura Macroeconômica 48
+Tópicos Especiais: Machine Learning para Marketing 48
+Tópicos Especiais: Fontes de Dados Econômicos 48
+Tópicos Especiais: Econometria 48
+A criação das trilhas de Saúde, Esporte e Gestão responde diretamente às transformações estrutu-
+rais observadas nos setores produtivos e sociais, nos quais a análise de dados passou a desempenhar papel
+central na tomada de decisão, na eﬁciência operacional e na inovação. A área da Saúde demanda cada
+vez mais proﬁssionais capazes de lidar com grandes volumes de dados, modelagem preditiva e soluções
+tecnológicas aplicadas ao cuidado, gestão assistencial e avaliação de desempenho de sistemas. O Esporte,
+por sua vez, tornou-se um campo altamente orientado por métricas, algoritmos e análises de performance,
+exigindo competências em monitoramento de atletas, análise de jogo e desenvolvimento de estratégias
+baseadas em evidências. Já a trilha de Gestão acompanha o movimento de integração entre ciência
+de dados, negócios e processos organizacionais, permitindo que o estudante compreenda fenômenos cor-
+porativos, desenvolva soluções analíticas e participe de processos de tomada de decisão orientados por
+dados.
+Assim, as três trilhas foram concebidas para conectar os conteúdos técnicos do curso a áreas reais
+de aplicação, proporcionando ao estudante uma formação interdisciplinar, prática e alinhada às demandas
+contemporâneas. Elas ampliam a capacidade de atuação do futuro egresso, permitem o desenvolvimento
+aprofundado de competências especíﬁcas e reforçam o compromisso do curso com uma formação orientada
+a problemas, evidências e resultados.
+Adicionalmente, ao escolher uma trilha, o estudante desenvolve a competência de aprender a
+aprender, pois assume um papel ativo na construção de sua formação, selecionando temas, problemas e
+métodos que dialogam com sua trajetória. Essa autonomia curricular reforça o caráter aplicado do curso,
+uma vez que as disciplinas optativas das trilhas — distribuídas conforme cada itinerário — são orientadas
+pela prática e voltadas à resolução de problemas reais. O estudante passa a articular teoria e prática
+de forma progressiva, integrando fundamentos de ciência de dados com demandas concretas dos setores
+escolhidos.
+As trilhas também fortalecem a interdisciplinaridade, pois conectam conteúdos de estatística,
+computação e engenharia de dados a saberes especíﬁcos de áreas como saúde, biomecânica, mercados,
+análises de negócio e gestão pública. Dessa forma, o aluno desenvolve uma visão sistêmica e proﬁssion-
+almente orientada.
+--- Pagina 43 ---
+17.5. EMENTÁRIO 39
+A partir do sexto semestre, o estudante deve cursar as disciplinas optativas de trilha previstas
+para completar seu percurso formativo, conforme a matriz curricular deﬁnida. A lista completa das
+disciplinas optativas de cada trilha encontra-se apresentada a seguir, conforme planilha oﬁcial da grade
+curricular.
+O percurso formativo das disciplinas optativas não se limita exclusivamente às trilhas temáticas.
+Embora o estudante tenha a possibilidade de aprofundar-se em Saúde, Esporte ou Gestão, o currículo
+prevê também o acesso a um conjunto ampliado de componentes optativos que abordam temas con-
+temporâneos da área de Ciência de Dados, além de disciplinas ofertadas pelos cursos de Engenharia de
+Produção e Administração. Essa abertura curricular fortalece a interdisciplinaridade e permite que o
+discente explore diferentes perspectivas teóricas e aplicadas, ampliando sua formação para além do eixo
+técnico e temático.
+DISCIPLINAS CH
+Data Analytics Aplicado à Energia 48
+Computação Quântica para Machine Learning (Quantum AI) 48
+Edge AI e Sistemas Embarcados Inteligentes 48
+Quantiﬁcação de Incertezas em modelos de IA 48
+IA Simbólica e Sistemas Baseados em Conhecimento 48
+Aprendizado por Reforço Profundo Avançado 48
+Todas as disciplinas dos cursos de engenharia de produção e administração -
+Dessa forma, o curso incentiva trajetórias personalizadas, conectadas a interesses acadêmicos e
+proﬁssionais diversos, sem restringir o desenvolvimento formativo a um único itinerário.
+17.5 EMENTÁRIO
+17.5.1 Disciplinas Obrigatórias
+A seguir são descritas o ementário das disciplinas obrigatórias do curso de Ciência de Dados Aplicada
+por sementre.
+Primeiro Semestre
+•DISCIPLINA : Cálculo A.
+–SIGLA : MAT00A.
+–CH (hora.aula) : 64h.
+–Funções, Limite e Continuidade, Derivada e Integral.
+•DISCIPLINA : Análise Exploratória de Dados.
+–SIGLA : CDA002.
+–CH (hora.aula) : 48h.
+–Fundamentos de análise exploratória. Tipos e estruturas de dados. Estatística descritiva.
+Medidas de tendência central e dispersão. Distribuições de dados. Detecção de outliers. Visu-
+alização de dados. Gráﬁcos univariados e multivariados. Correlação e covariância. Transfor-
+mações de dados. Padronização e normalização. Redução de dimensionalidade exploratória.
+Tratamento de dados faltantes. Preparação e limpeza de dados. Boas práticas em análise
+exploratória. Realização das análises em ambiente de programação.
+--- Pagina 44 ---
+40 17. ESTRUTURA CURRICULAR
+•DISCIPLINA : Probabilidade e Estatística.
+–SIGLA : IEPG03.
+–CH (hora.aula) : 48h.
+–Conceitos e deﬁnições estatísticas; Estatística descritiva; Cálculo de probabilidade; Dis-
+tribuições de probabilidade para variáveis discretas; Distribuições de probabilidade para
+variáveis contínuas; estimativa pontual e intervalar; Amostragem.
+•DISCIPLINA : Introdução a Ciência de Dados.
+–SIGLA : CDA001.
+–CH (hora.aula) : 48h.
+–Considerações preliminares; Deﬁnição da Ciência de Dados; Mercado de Ciência de Dados no
+Brasil; Áreas da Ciência de Dados; Ética na Ciência de Dados.
+•DISCIPLINA : Programação 1.
+–SIGLA : CDA003.
+–CH (hora.aula) : 48h.
+–Fundamentos de programação. Variáveis e tipos de dados. Operadores aritméticos e lógi-
+cos. Estruturas condicionais. Estruturas de repetição. Listas, tuplas e dicionários. Strings.
+Funções. Modularização. Entrada e saída de dados. Tratamento de erros. Arquivos. Intro-
+dução a algoritmos. Noções de complexidade. Bibliotecas básicas em linguagem de progra-
+mação.
+•DISCIPLINA : Engenharia da Transformação Digital.
+–SIGLA : CDA004.
+–CH (hora.aula) : 48h.
+–As revoluções industriais e a digitalização; Sistemas ciber físicos; Internet das coisas e de
+serviços; Automação e machine-to-machine; Inteligência artiﬁcial e Big Data; Núvem e Inte-
+gração de sistemas; RFID; Realidade aumentada e virtual; Manufatura aditiva; Organização
+e Trabalho.
+Segundo Semestre
+•DISCIPLINA : Cálculo B.
+–SIGLA : MAT00B.
+–CH (hora.aula) : 64h.
+–Equações Paramétricas e Coordenadas Polares, Geometria Analítica, Funções Vetoriais,
+Funções de Várias Variáveis e Derivadas Parciais.
+•DISCIPLINA : Álgebra Linear Computacional.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Espaços Vetoriais. Bases e Dimensão. Espaços com produto interno. Transformações lineares.
+Autovalores e autovetores. Aplicações à Geometria Analítica. Eliminação Gaussiana. Decom-
+posição LU. Decomposição espectral. Decomposição SVD. Condicionamento. Decomposição
+QR. Tópicos em análise numérica. Teoria dos Números. Criptograﬁa básica.
+•DISCIPLINA : Inferência Estatística.
+--- Pagina 45 ---
+17.5. EMENTÁRIO 41
+–SIGLA : CDAXX.
+–CH (hora.aula) : 32h.
+–Teste de hipóteses; Conceito de Estimador; Conceito de Viés; Conceito Eﬁciência; Hetero-
+cedasticidade, Autorrelação serial; Correlação linear e regressão; Regressão múltipla.
+•DISCIPLINA : Estrutura de Dados e Algoritmos.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Tipos abstratos de dados. Listas, pilhas e ﬁlas. Árvores. Árvores binárias e árvores bal-
+anceadas. Tabelas de dispersão (hash). Grafos. Algoritmos de busca. Algoritmos de or-
+denação. Análise de complexidade. Notação Big-O. Recursão. Estratégias de projeto de
+algoritmos. Divisão e conquista. Programação dinâmica. Algoritmos gulosos.
+•DISCIPLINA : Programação 2.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Programação orientada a objetos. Classes e objetos. Encapsulamento, herança e polimor-
+ﬁsmo. Manipulação avançada de estruturas de dados. Tratamento de exceções. Módulos e
+pacotes. Programação funcional. Geradores e compreensões. Decoradores. Manipulação de
+arquivos e diretórios. Expressões regulares. Testes automatizados. Introdução à concorrência
+e paralelismo. Bibliotecas avançadas em Python. Boas práticas de desenvolvimento.
+•DISCIPLINA : Visualização de Dados.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Visualização de dados para apoio à decisão, com foco prático em Power BI e complemento
+por Tableau/Looker Studio/Grafana e Python (pandas/Plotly). Abrange princípios de design
+e storytelling, escolha de gráﬁcos, modelagem BI (fatos/dimensões), Power Query e DAX
+para KPIs, conexão a fontes (Excel/SQL/APIs), atualização, publicação no Power BI Service,
+governança e segurança (RLS).
+•DISCIPLINA : Técnicas de Amostragem.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 32h.
+–Fundamentos e Amostragem Aleatória Simples (AAS); Uso de Variáveis Auxiliares e Estrati-
+ﬁcação; Amostragem por Conglomerados e em Múltiplos Estágios; Amostragem Sistemática;
+Amostra por conveniência; Erro de medida; Bootstrapping; Conceito de experimentos e quasi-
+experimentos (grid, hipercubo latino, sobol, outras).
+Terceiro Semestre
+•DISCIPLINA : Cálculo C.
+–SIGLA : MAT00C.
+–CH (hora.aula) : 64h.
+–Integrais Múltiplas e Cálculo Vetorial.
+•DISCIPLINA : Otimização 1.
+–SIGLA : CDAXX.
+--- Pagina 46 ---
+42 17. ESTRUTURA CURRICULAR
+–CH (hora.aula) : 48h.
+–Introdução à Otimização; Técnicas Clássicas de Otimização; Otimização Linear: método Sim-
+plex; Otimização não-linear unidimensional; Otimização não-linear irrestrita; Otimização não-
+linear com restrições; Otimização estocástica; Aplicações em ciência de dados.
+•DISCIPLINA : Machine Learning 1.
+–SIGLA : EPOP17.
+–CH (hora.aula) : 48h.
+–Fundamentos de programação em Python, aprendizagem supervisionada (problemas de re-
+gressão e classiﬁcação), não supervisionada; Técnicas de balanceamento; Métricas de validação
+de modelos de regressão (MSE, RMSE, MAE, MAPE) e classiﬁcação (acurácia, sensibilidade,
+especiﬁcidade, curva ROC, matriz de confusão); Técnicas de avaliação da capacidade de gener-
+alização do modelo (validação cruzada); Análise descritiva, diagnóstica e preditiva; Linguagem
+de apoio: Python.
+•DISCIPLINA : Engenharia de Dados.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 32h.
+–Fundamentos de engenharia de dados; Arquiteturas e ecossistemas de dados; Integração e in-
+gestão de dados; ETL e ELT; Construção e automação de pipelines de dados; Data lakes e data
+warehouses em ambientes distribuídos e em nuvem; Processamento em lote e em ﬂuxo; men-
+sageria e streaming; Qualidade, governança, escalabilidade e tolerância a falhas; Observabili-
+dade e monitoramento de pipelines; Desenvolvimento e implantação de workﬂows orientados
+a dados.
+•DISCIPLINA : Engenharia de Software.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de engenharia de software. Processo de desenvolvimento de software. Análise e
+especiﬁcação de requisitos. Modelagem de sistemas. UML. Arquitetura de software. Padrões
+de projeto. Veriﬁcação e validação. Testes de software. Gestão de conﬁguração. Integração
+contínua. Metodologias ágeis. Gerenciamento de projetos de software. Qualidade de software.
+Manutenção e evolução.
+•DISCIPLINA : Banco de Dados 1.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 32h.
+–Fundamentos de bancos de dados. Modelagem de dados. Modelo entidade-relacionamento.
+Esquemas conceitual, lógico e físico. Modelo relacional. Álgebra relacional. Linguagem SQL.
+Criação e manipulação de tabelas. Consultas básicas e intermediárias. Integridade referencial.
+Chaves primárias e estrangeiras. Normalização. Operações de inserção, atualização e exclusão.
+Introdução a SGBDs.
+•DISCIPLINA :
+–SIGLA : EPOP10.
+–CH (hora.aula) : 32h.
+–Princípios do Agile e do Manifesto, comparação de frameworks (Scrum, Kanban, Lean, XP)
+e escolha por contexto. Foca em papéis (PO, Scrum Master, equipe), colaboração com stake-
+holders, visão e objetivos, backlog priorizado por valor/risco, histórias de usuário, estimativas
+--- Pagina 47 ---
+17.5. EMENTÁRIO 43
+(Planning Poker) e planejamento de sprints com metas e DoR/DoD. Cerimônias (daily, plan-
+ning, review, retro), métricas de ﬂuxo e valor (lead/cycle time, velocidade, burn-down/up,
+Cumulative Flow) e gestão visual com Kanban e políticas de WIP. Validação com usuários,
+gestão de dependências, riscos e qualidade, governança ágil com OKRs e roadmaps, contratos
+ﬂexíveis e integração com produto/engenharia.
+Quarto Semestre
+•DISCIPLINA : Projeto Integrador 1.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 64h.
+–Concepção e implementação de um pipeline de dados em tempo real, cobrindo ingestão de
+fontes como APIs e sensores, processamento com ferramentas de streaming, persistência em
+camadas e visualização em dashboards. O curso aborda arquitetura de streaming, janelas e
+agregações, modelagem de machine learning em, além de segurança, LGPD, observabilidade
+e conﬁabilidade operacional. Os alunos desenvolvem um protótipo ﬁm a ﬁm com ingestão,
+processamento, modelo e dashboard, produzem relatório técnico-executivo com métricas de
+desempenho (latência, throughput, precisão) e insights, e realizam apresentação com demon-
+stração do sistema e discussão de aplicabilidade no mercado.
+•DISCIPLINA : Otimização 2.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Otimização multivariável. Métodos quasi-Newton multivariáveis. Região de conﬁança multi-
+variável. Otimização multiobjetivo. Fronteira de Pareto. Métodos escalarizantes. Weighted
+sum. -constraint. Análise de convergência, eﬁciência e métricas. Aplicações em ciência de
+dados.
+•DISCIPLINA : Machine Learning 2.
+–SIGLA : EPOP18.
+–CH (hora.aula) : 48h.
+–Introdução a redes neurais e aprendizado profundo; Redes Neurais Convolucionais; Redes
+Neurais Recorrentes; Autoencoders; Aprendizado por reforço; Modelos Grandes de Linguagem
+(LLM’s); Linguagem de apoio: Python (TensorFlow).
+•DISCIPLINA : Análise e Processamento de Sinais 1.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de sinais e sistemas. Sinais contínuos e discretos. Operações com sinais. Sistemas
+lineares e invariantes no tempo. Convolução. Transformada de Fourier contínua e discreta.
+Série de Fourier. Transformada Discreta de Fourier (DFT) e FFT. Filtragem no domínio do
+tempo e da frequência. Amostragem e quantização. Transformada Z. Estabilidade e resposta
+em frequência. Filtros digitais FIR e IIR. Deteção e extração de características. Processamento
+estatístico de sinais. Aplicações em engenharia, computação e ciência de dados.
+•DISCIPLINA : Computação em Nuvem.
+–SIGLA : CDAXX.
+--- Pagina 48 ---
+44 17. ESTRUTURA CURRICULAR
+–CH (hora.aula) : 48h.
+–Fundamentos de computação em nuvem. Modelos de serviço: IaaS, PaaS e SaaS. Modelos de
+implantação: nuvem pública, privada e híbrida. Virtualização. Contêineres e orquestração.
+Armazenamento em nuvem. Redes e segurança na nuvem. Escalabilidade e balanceamento
+de carga. Arquiteturas serverless. Microsserviços. Provisionamento e automação. Custos e
+otimização de recursos. Principais provedores de nuvem. Boas práticas de operação e gover-
+nança na nuvem.
+•DISCIPLINA : Banco de Dados 2.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Modelos avançados de bancos de dados. Consultas SQL avançadas. Views. Índices. Triggers.
+Procedures e funções armazenadas. Controle de transações. ACID. Concorrência e bloqueios.
+Recuperação e logs. Otimização de consultas. Arquitetura interna de SGBDs. Particiona-
+mento e replicação. Banco de dados NoSQL. Modelos chave-valor, documento, grafo e coluna.
+Processamento distribuído de dados. Integração com aplicações. Segurança em bancos de
+dados.
+•DISCIPLINA : Séries Temporais.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–A Natureza da Previsão; Métodos de Alisamento Exponencial; Autocovariância e Autocorre-
+lação; Processos estocásticos; Teste de raiz unitária; Modelagem Box-Jekins e Reinsel; GMM;
+VAR; Causualidade de Granger e; exogeinidade; Modelos GARCH; Modelos não lineares.
+Quinto Semestre
+•DISCIPLINA : Estatística Multivariada.
+–SIGLA : CDAXX.
+–CH (hora.aula) : .
+–Fundamentos de análise multivariada. Matrizes de variâncias e covariâncias. Distância de
+Mahalanobis. Análise de componentes principais (PCA). Análise fatorial. Análise discrimi-
+nante. Regressão multivariada. MANOVA. Análise de cluster. Métodos hierárquicos e não
+hierárquicos. Análise de correspondência. Escalonamento multidimensional. Detecção de
+outliers multivariados. Normalidade multivariada. Visualização de dados multivariados. Apli-
+cações em ciência de dados.
+•DISCIPLINA : Automação Low-Code e Integração de Dados.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 64h.
+–Fundamentos de automação digital. Workﬂows e integração de sistemas. Plataformas low-
+code de automação. N8N: conceitos, nós e estruturas de ﬂuxo. Conectores e integrações via
+API. Webhooks. Autenticação e tokens. Manipulação de dados. Transformações e proces-
+samento automatizado. Integração com serviços externos. Automação de tarefas repetitivas.
+Orquestração de pipelines de dados. Monitoramento e logging de workﬂows. Boas práticas de
+segurança e governança. Publicação e deploy de automações. Aplicações em ciência de dados.
+•DISCIPLINA : Machine Learning 3.
+--- Pagina 49 ---
+17.5. EMENTÁRIO 45
+–SIGLA : EPOP19.
+–CH (hora.aula) : 32h.
+–Desenvolvimento de um caso prático real, desde a análise descritiva e diagnóstica dos dados,
+até a implementação por meio da aplicação de técnicas adequadas de Machine/deep Learning.
+•DISCIPLINA : Análise e Processamento de Sinais 2.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Análise tempo-frequência. STFT. Espectrogramas. Wavelets contínuas e discretas. Filtros
+digitais avançados. Projeto e implementação de ﬁltros FIR e IIR. Filtros adaptativos. LMS
+e RLS. Modelagem AR, MA e ARMA. Estimação espectral paramétrica e não paramétrica.
+Processamento de sinais não estacionários. Detecção e classiﬁcação de padrões em sinais.
+Transformadas rápidas e otimizações. Processamento multicanais. Beamforming. Técnicas
+de separação cega de fontes. ICA. Sinais em ambientes ruidosos. Técnicas de denoising.
+Aplicações avançadas em engenharia, biomédica, comunicações e vibrações.
+•DISCIPLINA : Big Data e Processamento Distribuído.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de Big Data. Arquiteturas distribuídas. Sistemas de arquivos distribuídos.
+Hadoop e HDFS. MapReduce. Processamento em lote e em ﬂuxo. Apache Spark. RDDs
+e DataFrames. Otimização de jobs distribuídos. Sistemas de mensageria. Kafka. Pipelines
+distribuídos. NoSQL e armazenamento escalável. Particionamento e replicação. Tolerância a
+falhas. Consistência e modelos CAP. Escalabilidade horizontal. Monitoramento e observabili-
+dade em sistemas distribuídos. Boas práticas de processamento distribuído em larga escala.
+•DISCIPLINA : Ética e Governança de Dados.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de ética em tecnologia. Princípios de privacidade. Proteção de dados pessoais.
+LGPD e legislações correlatas. Consentimento e bases legais. Governança de dados. Qualidade
+e ciclo de vida dos dados. Segurança da informação. Riscos e impactos sociais da IA. Viés
+algorítmico. Transparência e explicabilidade. Auditoria e conformidade. Responsabilidade
+digital. Boas práticas de gestão e uso ético de dados.
+•DISCIPLINA : Modelos em Painel e Instrumentos.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Seleção de variáveis e Estimadores de Matching; Variáveis Instrumentais e Seleção Não Ob-
+servável; Modelos em Painel.
+Sexto Semestre
+•DISCIPLINA : Projeto Integrador 2.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 64h.
+--- Pagina 50 ---
+46 17. ESTRUTURA CURRICULAR
+–visa desenvolver uma solução de machine learning para um problema real em áreas como
+saúde, educação e segurança. O projeto começa com uma introdução que justiﬁca a relevância
+do problema e segue com uma metodologia em etapas. Primeiro, realiza-se a pesquisa e
+levantamento de dados relevantes. Em seguida, é feita uma análise exploratória para entender
+os dados coletados. O desenvolvimento do modelo envolve a escolha do algoritmo apropriado
+e o treinamento do modelo de machine learning. A implementação consiste na criação de
+um protótipo, integrando o modelo em uma plataforma. Os resultados esperados incluem a
+avaliação do modelo com métricas como precisão e recall, além de discutir o impacto da solução
+no problema social.
+•DISCIPLINA : Engenharia Econômica.
+–SIGLA : IEPG10.
+–CH (hora.aula) : 48h.
+–Conceitos fundamentais sobre engenharia econômica; matemática ﬁnanceira; análise de alter-
+nativas de investimentos; técnicas de tomada de decisão (VPL, TIR, VA, Pay-Back); métodos
+de depreciação; inﬂuência dos impostos sobre lucro; inﬂuência do ﬁnanciamento com capital de
+terceiros; demonstração de resultados de um projeto; ﬂuxo de caixa livre do empreendimento
+e do empreendedor; análise de risco e incerteza na avaliação de projetos.
+•DISCIPLINA : Metaheuristicas.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos da otimização evolucionária, complexidade de problemas mono e multiobjetivos,
+natureza e otimização, algoritmos inspirados em evolucionismo, algoritmos inspirados em enx-
+ames, algoritmos inspirados em fenômenos físicos, otimização de hiperparâmetros, aplicações
+em ciência de dados.
+•DISCIPLINA : Projeto e Análise de Experimentos.
+–SIGLA : EP7001.
+–CH (hora.aula) : 48h.
+–Testes de Hipótese; ANOVA; Regressão; Método dos Mínimos Quadrados Ordinários; Arranjos
+Fatoriais Completos; Arranjos Fatoriais Fracionados; Confundimento e Resolução; Plackett-
+Burman; Arranjos Ortogonais de Taguchi; Metodologia de Superfície de Resposta; Análise
+de curvatura; Método do Vetor Gradiente; Arranjo composto central; Box-Behnken; Dopti-
+mal designs; Convexidade de funções; Autovalores; Otimização Não-linear; Rotacionalidade;
+Restrições de Espaço experimental; Restrição esférica; Restrição Elíptica; Otimização de múlti-
+plas respostas; Otimização simultânea de média e variância
+•DISCIPLINA : Visão Computacional.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de visão computacional. Formação de imagens. Representação digital de ima-
+gens. Pré-processamento e ﬁltragem espacial. Filtros no domínio da frequência. Detecção de
+bordas e contornos. Segmentação de imagens. Morfologia matemática. Extração de carac-
+terísticas. Descritores locais e globais. Correspondência de características. Reconhecimento
+de padrões. Processamento de vídeo. Rastreamento de objetos. Calibração de câmeras.
+Reconstrução 3D (introdução). Visão computacional clássica versus técnicas baseadas em
+aprendizado profundo. Aplicações em ciência de dados.
+--- Pagina 51 ---
+17.5. EMENTÁRIO 47
+Sétimo Semestre
+•DISCIPLINA : Engenharia da Qualidade.
+–SIGLA : EP6004.
+–CH (hora.aula) : 48h.
+–Tolerância; Média e Variância de Variáveis Aleatórias; Média e Variância de Funções de Var-
+iáveis Aleatórias; Alocação de tolerância; Minimização dos custos de manufatura; Modelagem
+de Funções de Custo; Regressão Não Linear; Múltiplas características da qualidade; Tolerân-
+cia para relações não lineares entre componentes; Programação Não-linear; Multiplicadores
+de Lagrange; Função Perda; Função NTB; Função STB; Função LTB; Projeto robusto; Ca-
+pacidade de Processo; Índices de Capacidade de Processo para Variáveis (Cp, Cpk, Pp, Ppk,
+Cpm); Índices de Capacidade de Processo para Atributos; Nível Sigma; Roadmap Six Sigmaő;
+ANOVA para fatores ﬁxos; ANOVA para fatores com níveis aleatórios; ANOVA para fatores
+mistos; Análise de Sistemas de Medição; Estudos de R&R para variáveis; Estudo de R&R para
+atributos; Linearidade; Erro Sistemático.
+•DISCIPLINA : Agentes de IA.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos de agentes inteligentes. Arquiteturas de agentes. Agentes reativos, deliberativos
+e híbridos. Agentes baseados em objetivos e utilidade. Modelagem de ambientes. Percepção e
+atuação. Planejamento automático. Busca heurística. Raciocínio e tomada de decisão. Lógica
+e inferência. Aprendizado por reforço. Políticas e funções de valor. Agentes multiagentes.
+Comunicação e cooperação. Competição e jogos. Ética e segurança em agentes autônomos.
+Aplicações práticas de agentes de IA.
+17.5.2 Disciplinas Optativas das Trilhas
+•DISCIPLINA : Data Analytics Aplicado à Saúde.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Estudo e aplicação de técnicas de análise de dados voltadas ao setor de saúde. Uso de bases
+clínicas, hospitalares, epidemiológicas e administrativas. Métodos de análise exploratória,
+integração e limpeza de dados em saúde. Modelagem estatística e aprendizado de máquina
+para apoio ao diagnóstico, previsão de demanda, análise de risco e avaliação de desfechos.
+Construção de dashboards, indicadores e ferramentas de apoio à decisão. Aplicações em saúde
+pública, gestão hospitalar, vigilância epidemiológica e atenção primária. Desenvolvimento de
+estudos de caso com dados reais do setor.
+•DISCIPLINA : Machine Learning e Padrões em Saúde.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Conceitos e técnicas de aprendizado de máquina aplicados à detecção de padrões em dados
+biomédicos, clínicos e epidemiológicos. Modelos supervisionados e não supervisionados para
+análise de sinais vitais, séries temporais, registros eletrônicos de saúde e dados populacionais.
+Métodos de seleção de atributos, avaliação de modelos e validação em cenários sensíveis. In-
+terpretação de modelos de ML em saúde e princípios de explainable AI (XAI). Aplicações em
+--- Pagina 52 ---
+48 17. ESTRUTURA CURRICULAR
+previsão de eventos adversos, estratiﬁcação de risco, reconhecimento de padrões ﬁsiológicos e
+apoio à decisão clínica.
+•DISCIPLINA : Análise de Imagens Médicas com IA.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Estudo dos fundamentos, técnicas e modelos de inteligência artiﬁcial aplicados à análise de
+imagens médicas. Processamento e pré-processamento de imagens radiológicas, tomográﬁcas,
+ultrassonográﬁcas e de ressonância magnética. Redes neurais convolucionais (CNNs), seg-
+mentação, detecção de anomalias e classiﬁcação de estruturas anatômicas. Uso de bancos de
+imagens médicos, controle de qualidade e aspectos éticos na utilização de IA em diagnósticos
+por imagem. Desenvolvimento de aplicações práticas e estudos de caso simulando ﬂuxos de
+diagnóstico assistido por computador.
+•DISCIPLINA : Tópicos Especiais: Fontes de Dados da Saúde.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Exploração de diferentes ecossistemas e fontes de dados relacionados à saúde. Bases admin-
+istrativas, epidemiológicas e clínicas: e-SUS, SIH/SUS, SIA/SUS, SINAN, SIM, CNES, ANS,
+bancos de imagens médicos, sensores e dispositivos vestíveis. Estruturação de bases, padrões
+de interoperabilidade e formatos de dados em saúde. Limitações, vieses e desaﬁos de quali-
+dade, privacidade e governança. Técnicas para integração, enriquecimento e análise de dados
+provenientes de múltiplas fontes.
+•DISCIPLINA : Data Analytics Aplicado ao Esporte.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Introdução à análise de dados esportivos e aos principais indicadores de desempenho coletivo
+e individual. Estruturas de dados provenientes de jogos, treinamentos, sensores, wearables e
+sistemas de rastreamento. Técnicas de análise exploratória, criação de métricas, construção
+de dashboards esportivos e interpretação de indicadores táticos e físicos. Aplicações em mon-
+itoramento de performance, análise de jogo, gestão esportiva e suporte à tomada de decisão
+por comissão técnica e gestores.
+•DISCIPLINA : Machine Learning para Preciﬁcação de Atletas.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Modelagem computacional aplicada à avaliação e preciﬁcação de atletas. Construção de bases
+históricas de desempenho, variáveis de mercado e indicadores técnicos. Métodos de regressão,
+modelos estatísticos e algoritmos de machine learning utilizados para estimar valor de mercado,
+projeção de desempenho futuro e análise de risco. Técnicas de feature engineering especíﬁcas
+para contexto esportivo. Avaliação de modelos e uso ético de algoritmos em decisões contratuais
+e de investimento.
+•DISCIPLINA : Machine Learning para Carga de Treino e Prevenção de Lesões.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+--- Pagina 53 ---
+17.5. EMENTÁRIO 49
+–Estudo de algoritmos de machine learning aplicados à modelagem de carga externa e interna
+de atletas. Processamento de dados de GPS, acelerômetros, plataformas de força, sensores ﬁsi-
+ológicos e registros médicos. Identiﬁcação de padrões associados à sobrecarga, fadiga e risco de
+lesão. Construção de modelos preditivos para otimização do planejamento de treinos, controle
+de carga e redução de incidência de lesões. Discussão sobre validação, limiares, interpretação
+prática dos modelos e recomendações para comissões técnicas.
+•DISCIPLINA : Scouting com Machine Learning.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Aplicações de ciência de dados para scouting e tomada de decisão em captação de talen-
+tos. Análise de dados técnicos, táticos, físicos e comportamentais. Modelos de classiﬁcação
+e ranqueamento para identiﬁcação de atletas promissores. Técnicas de detecção de padrões,
+análise de similaridade e clustering para perﬁs de jogadores. Uso de dados de múltiplas ligas,
+competições e categorias de base. Construção de relatórios automatizados e integração de
+algoritmos ao processo de avaliação de atletas.
+•DISCIPLINA : Tópicos Especiais: Fontes de Dados no Esporte.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Mapeamento e exploração das principais fontes de dados esportivos. Dados de tracking, event
+data, sensores vestíveis, plataformas de streaming, relatórios oﬁciais de competições e bancos
+de dados públicos e privados. Estrutura, formatos e restrições das bases (CSV, JSON, APIs,
+OPTA, Wyscout, Instat, Second Spectrum). Desaﬁos de qualidade, padronização, interoper-
+abilidade e privacidade. Integração e preparação de bases para uso em projetos de análise,
+scouting ou machine learning.
+•DISCIPLINA : Tópicos Especiais: Visualização de Dados no Esporte.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Princípios e técnicas de visualização aplicadas ao contexto esportivo. Construção de gráﬁcos,
+mapas de calor, passes, ações, pressões e modelos táticos usando ferramentas especializadas.
+Visualização de séries temporais de carga, indicadores físicos e métricas de jogo. Design de
+dashboards para comissões técnicas e gestores. Boas práticas de narrativa visual e comunicação
+analítica com foco em tomada de decisão esportiva. Uso de templates e bibliotecas especíﬁcas
+para dados esportivos.
+•DISCIPLINA : Data Analytics Aplicado à Gestão.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Aplicação de técnicas de análise de dados em processos organizacionais. Estruturação de
+indicadores-chave de desempenho (KPIs), análise exploratória de dados corporativos, criação
+de dashboards gerenciais e apoio à tomada de decisão baseada em evidências. Uso de métricas
+ﬁnanceiras, operacionais, logísticas e de recursos humanos. Estudo de casos envolvendo eﬁ-
+ciência produtiva, desempenho de equipes, comportamento de clientes e melhoria de processos.
+•DISCIPLINA : Ciência de Dados para Gestão de Portfólios.
+–SIGLA : CDAXX.
+--- Pagina 54 ---
+50 17. ESTRUTURA CURRICULAR
+–CH (hora.aula) : 48h.
+–Análise e modelagem de portfólios corporativos e ﬁnanceiros utilizando métodos quantitativos.
+Construção de bases históricas, avaliação de risco, correlação entre ativos e otimização de
+portfólios. Algoritmos para previsão de retornos, simulação de cenários e tomada de decisão
+sob incerteza. Abordagem aplicada à gestão de produtos, projetos, investimentos e inovação,
+integrando indicadores estratégicos e métricas quantitativas.
+•DISCIPLINA : Ciência de Dados para Análise de Conjuntura Macroeconômica.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Aplicação de métodos quantitativos ao estudo da conjuntura econômica. Construção e in-
+terpretação de séries temporais macroeconômicas (PIB, inﬂação, juros, emprego, comércio
+exterior). Modelos de previsão, análise de ciclos, decomposição e simulação de cenários. Uso
+de técnicas de machine learning para identiﬁcação de padrões macroeconômicos. Aplicações
+em planejamento, políticas públicas, análise setorial e tomada de decisão estratégica.
+•DISCIPLINA : Tópicos Especiais: Machine Learning para Marketing.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Introdução a modelos de aprendizado de máquina voltados ao comportamento do consumidor
+e às estratégias de marketing. Segmentação de clientes, modelagem de churn, recomendação
+de produtos e previsão de demanda. Análise de funis de conversão, lifetime value (LTV)
+e otimização de campanhas. Aplicações práticas com dados de mercado, mídias digitais e
+estratégias omnichannel.
+•DISCIPLINA : Tópicos Especiais: Fontes de Dados Econômicos.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Exploração das principais bases de dados econômicos nacionais e internacionais. Indicadores
+macro e microeconômicos: produção, preços, mercado de trabalho, ﬁnanças públicas, comércio
+exterior, contas nacionais e crédito. Formatos, padrões e limitações das bases (IPEA, IBGE,
+BACEN, B3, FMI, OCDE, OIT, ONU, entre outras). Técnicas de coleta, limpeza, integração
+e análise crítica. Preparação de dados para modelagem econométrica e machine learning.
+•DISCIPLINA : Tópicos Especiais: Econometria.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Fundamentos e aplicações de métodos econométricos em problemas reais de gestão e economia.
+Modelos de regressão linear e extensões, diagnóstico e tratamento de violações de hipóteses.
+Modelos para dados de painel, séries temporais e variáveis qualitativas. Estimação, inferência
+e interpretação de parâmetros para suporte à tomada de decisão. Aplicações práticas em
+mercado, políticas públicas, ﬁnanças e comportamento econômico.
+17.5.3 Disciplinas Optativas Gerais
+•DISCIPLINA : Data Analytics Aplicado à Energia.
+–SIGLA : CDAXX.
+--- Pagina 55 ---
+17.5. EMENTÁRIO 51
+–CH (hora.aula) : 48h.
+–Estudo e aplicação de técnicas de análise de dados voltadas ao setor de energia. Exploração
+de bases de dados energéticos, incluindo geração, transmissão, distribuição e consumo. Mod-
+elagem estatística e aprendizado de máquina para previsão de demanda, detecção de perdas
+não técnicas, análise de eﬁciência energética e avaliação de desempenho de sistemas elétricos.
+•DISCIPLINA : Computação Quântica para Machine Learning (Quantum AI).
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Introdução aos fundamentos da computação quântica e seu uso em algoritmos de Machine
+Learning. Qubits, portas quânticas, circuitos e operações fundamentais. Variational Quantum
+Circuits (VQC), Quantum Neural Networks (QNNs), Quantum Kernel Methods, Quantum
+PCA. Simulações e execução em hardware quântico. Aplicações emergentes em otimização,
+previsão, criptograﬁa e IA híbrida quântico-clássica.
+•DISCIPLINA : Edge AI e Sistemas Embarcados Inteligentes.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Desenvolvimento de modelos de IA otimizados para execução em dispositivos embarcados e
+sistemas de baixa potência. Técnicas de quantização, poda, compressão, distilação e otimiza-
+ção de modelos para hardware especializado. Integração com microcontroladores, sensores e
+sistemas IoT. Aplicações em manufatura, saúde, automação e smart cities.
+•DISCIPLINA : Quantiﬁcação de Incertezas em modelos de IA.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Métodos estatísticos e computacionais para quantiﬁcação e propagação de incertezas em mod-
+elos de Machine Learning e Deep Learning. Inferência Bayesiana, Deep Ensembles, Conformal
+Prediction, calibragem de conﬁança e análise probabilística de modelos. Avaliação de risco em
+aplicações críticas (indústria, saúde, energia). Implementação prática e análise de segurança
+e conﬁabilidade de modelos.
+•DISCIPLINA : IA Simbólica e Sistemas Baseados em Conhecimento.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Estudo dos fundamentos da Inteligência Artiﬁcial Simbólica, raciocínio lógico, representação
+de conhecimento e sistemas baseados em regras. Ontologias, raciocínio dedutivo, indutivo e ab-
+dutivo. Métodos de busca simbólica, planejamento, provas automáticas e processamento sim-
+bólico de linguagem. Integração entre IA simbólica e métodos conexionistas (Neuro-Symbolic
+AI). Construção de sistemas especialistas modernos aplicados à indústria, saúde e engenharia.
+•DISCIPLINA : Aprendizado por Reforço Profundo Avançado.
+–SIGLA : CDAXX.
+–CH (hora.aula) : 48h.
+–Estudo aprofundado de Aprendizado por Reforço (RL) integrado a Deep Learning, com foco em
+algoritmos de estado da arte. Métodos baseados em política, valor e modelos. Deep QLearn-
+ing avançado, PPO, SAC, TD3, DDPG. Multi-Agent RL. Curvas de recompensa, estabilidade,
+exploração e otimização. Aplicações em robótica, automação, economia computacional e sis-
+temas industriais.
+--- Pagina 56 ---
+52 17. ESTRUTURA CURRICULAR

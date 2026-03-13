@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Híbrido Quântico-Clássico | Regressão Linear + Borromeo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#050508;--card:#10101b;--border:rgba(85,150,255,0.18);
+  --quantum:#b89eff;--quantum2:#f76fc1; /* Cores magenta pro ruído IBM */
+  --classic:#5596ff;--classic2:#6ff7c0; /* Azul tecnológico pra correção linear */
+  --target:#ffd166; /* Amarelo ouro para o recorde de convergência */
+  --text:#e8e6f8;--muted:#5c6883;
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background:
+  radial-gradient(ellipse 60% 40% at 20% 20%,rgba(85,150,255,.07) 0%,transparent 70%),
+  radial-gradient(ellipse 50% 50% at 80% 80%,rgba(184,158,255,.07) 0%,transparent 70%);
+  pointer-events:none;z-index:0}
+.layout{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 20px 60px;gap:32px}
+
+/* header */
+header{text-align:center;max-width:850px;animation:fadeUp .7s ease both}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(85,150,255,.15);border:1px solid rgba(85,150,255,.4);color:var(--classic);font-size:.72rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 16px;border-radius:100px;margin-bottom:14px}
+.pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--classic);box-shadow:0 0 10px var(--classic);animation:blink 1s infinite alternate}
+h1{font-size:clamp(1.8rem,4vw,2.4rem);font-weight:800;background:linear-gradient(135deg,#e8e6f8,#5596ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.15;margin-bottom:12px; letter-spacing:-0.5px}
+header p{color:var(--muted);font-size:.95rem;line-height:1.7}
+
+/* grid */
+.main-grid{display:grid;grid-template-columns:1fr 340px;gap:22px;width:100%;max-width:1200px;animation:fadeUp .7s .12s ease both}
+@media(max-width:860px){.main-grid{grid-template-columns:1fr}}
+
+/* card */
+.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:22px;backdrop-filter:blur(12px);position:relative;overflow:hidden}
+.card-title{font-size:.76rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text);margin-bottom:14px; opacity:0.8}
+
+/* canvas */
+.canvas-wrapper{position:relative;border-radius:14px;overflow:hidden;background:linear-gradient(135deg,#0a0a0f,#0d0d16);border:1px solid rgba(255,255,255,0.05)}
+#mainCanvas{display:block;width:100%;touch-action:none}
+.canvas-hint{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);background:rgba(9,9,15,.8);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:100px;padding:5px 16px;font-size:.7rem;color:var(--muted);pointer-events:none;white-space:nowrap}
+
+/* stats */
+.stat-box{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.stat-card{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:14px}
+.s-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.s-val{font-family:'JetBrains Mono',monospace;font-size:1.3rem;font-weight:600;color:var(--text);transition:transform .2s}
+.s-val.pop{animation:pop .3s ease}
+.dot{width:8px;height:8px;border-radius:50%}
+
+/* painel info */
+.info-row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.03)}
+.info-row:last-child{border:none}
+.i-lbl{font-size:.8rem;color:var(--muted)}
+.i-val{font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--text);font-weight:500}
+
+/* legend */
+.legend{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:14px;background:rgba(0,0,0,.3);padding:10px;border-radius:10px}
+.leg-item{display:flex;align-items:center;gap:6px;font-size:.72rem;color:var(--muted)}
+.leg-line{width:22px;height:3px;border-radius:2px}
+.leg-dash{width:22px;height:0;border-top:2px dashed;opacity:.7}
+.leg-cross{font-size:10px;color:rgba(255,255,255,0.7);margin-right:2px;font-family:monospace}
+
+/* animations */
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.15)}100%{transform:scale(1)}}
+@keyframes blink{from{opacity:.4}to{opacity:1}}
+@keyframes alertPulse{0%{box-shadow:inset 0 0 0px var(--target)}50%{box-shadow:inset 0 0 30px rgba(255,209,102,.15)}100%{box-shadow:inset 0 0 0px var(--target)}}
+.record-pulse{animation:alertPulse 1s infinite;border-color:rgba(255,209,102,.5)!important}
+
+/* badges e labels na linha da energia */
+.eq-math{font-family:'JetBrains Mono', monospace; font-size:0.8rem; background:rgba(85,150,255,0.1); padding: 5px 10px; border-radius:8px; color:var(--classic); text-align:center; border: 1px solid rgba(85,150,255,0.2)}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<header>
+  <div class="badge"><div class="pulse-dot" id="liveDot"></div> <span id="connStatus">Aguardando Telemetria...</span></div>
+  <h1>Pipeline Híbrido: Regressão Linear Aplicada à QPU</h1>
+  <p>Combinando métodos da Regressão Linear (mitigação PC clássico) <br> com estados brutos de Hardware Quântico IBM Torino na busca acelerada do estado alvo.</p>
+</header>
+
+<div class="main-grid">
+  <!-- Chart -->
+  <div class="card" id="mainChartCard" style="padding:18px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+      <span class="card-title" style="margin:0">Cost Landscape & Mitigação de Ruído</span>
+      <span style="font-size:.7rem;color:var(--muted);font-family:'JetBrains Mono'">ITER <span id="lblEpoch" style="color:#fff">0</span></span>
+    </div>
+    
+    <div class="canvas-wrapper">
+      <canvas id="plotCanvas"></canvas>
+      <div class="canvas-hint" id="statusHint">Aguardando injeção de dados via localhost:8081...</div>
+    </div>
+    
+    <div class="legend">
+      <div class="leg-item"><span class="leg-cross">✕</span>Amostra Bruta IBM (Shot Noise)</div>
+      <div class="leg-item"><div class="leg-line" style="background:var(--classic)"></div>Otimização Mínimos Quadrados Clássica</div>
+      <div class="leg-item"><div class="leg-dash" style="border-color:var(--target)"></div>Alvo Energia de Referência (-5.609)</div>
+    </div>
+  </div>
+
+  <!-- Dash Side -->
+  <div>
+    <div class="card" id="recordCard" style="margin-bottom:16px;background:linear-gradient(135deg,rgba(85,150,255,.05),transparent)">
+      <div class="card-title">Métricas de Otimização</div>
+      
+      <div class="stat-box">
+        <div class="stat-card" style="border-color:rgba(184,158,255,.3)">
+          <div class="s-label"><div class="dot" style="background:var(--quantum)"></div> IBM QPU Raw</div>
+          <div class="s-val" id="valRaw" style="color:var(--quantum); font-size:1.1rem">--</div>
+        </div>
+        <div class="stat-card" style="border-color:rgba(85,150,255,.5);background:rgba(85,150,255,.05)">
+          <div class="s-label"><div class="dot" style="background:var(--classic)"></div> PC Predição ŷ</div>
+          <div class="s-val" id="valClassic" style="color:var(--classic); font-size:1.1rem">--</div>
+        </div>
+      </div>
+      
+      <div class="eq-math" style="margin-bottom:10px" id="lblEq">
+         min Σ eᵢ² = Σ(yᵢ − ŷᵢ)²
+      </div>
+      
+      <div class="info-row">
+        <span class="i-lbl">Erro (Δ Alvo)</span>
+        <span class="i-val" id="errDelta" style="color:var(--target)">--</span>
+      </div>
+      <div class="info-row">
+        <span class="i-lbl">Status Convergência</span>
+        <span class="i-val" id="convergenceStatus" style="color:var(--muted)">Procurando...</span>
+      </div>
+    </div>
+
+    <div class="card" style="padding:18px">
+      <div class="card-title">Setup Arquitetural</div>
+      <div class="info-row"><span class="i-lbl">Abordagem</span><span class="i-val" style="color:#fff">Híbrida Quantum-Classical</span></div>
+      <div class="info-row"><span class="i-lbl">Sist. Emaranhamento</span><span class="i-val" style="color:#fff">Borromean Rings</span></div>
+      <div class="info-row"><span class="i-lbl">Mitigador Clássico</span><span class="i-val">Regressão Linear M.Q.</span></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+// --- CANVAS ENGINE ---
+const canvas = document.getElementById('plotCanvas');
+const ctx = canvas.getContext('2d');
+const DATA = { epochMax: 60, eMax: -1.0, eMin: -6.5, target: -5.609 };
+const PAD  = { top: 30, right: 30, bottom: 40, left: 60 };
+
+function resize() {
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width;
+  canvas.height = rect.width * 0.55; 
+}
+window.addEventListener('resize', resize); resize();
+
+function d2c(epoch, energy) {
+  const pw = canvas.width - PAD.left - PAD.right;
+  const ph = canvas.height - PAD.top - PAD.bottom;
+  const cx = PAD.left + (epoch / DATA.epochMax) * pw;
+  // clamp
+  const eClamped = Math.max(DATA.eMin, Math.min(DATA.eMax, energy));
+  const cy = PAD.top + (1 - (eClamped - DATA.eMin) / (DATA.eMax - DATA.eMin)) * ph;
+  return { x: cx, y: cy };
+}
+
+let chartData = { epochs: [], quantum: [], classic: [], status:"" };
+let lastLoadedEpochs = 0;
+let flashTimer = 0;
+
+// EFEITO VISUAL: Draw cross mark (Ruído quantico tipico do dataset de dispersão)
+function drawCross(cx, cy, color) {
+    ctx.strokeStyle = color; ctx.lineWidth = 1.0;
+    ctx.beginPath();
+    ctx.moveTo(cx-3, cy-3); ctx.lineTo(cx+3, cy+3);
+    ctx.moveTo(cx-3, cy+3); ctx.lineTo(cx+3, cy-3);
+    ctx.stroke();
+}
+
+function draw(ts=0) {
+  const W = canvas.width, H = canvas.height;
+  ctx.clearRect(0,0,W,H);
+  
+  // 1. Grid
+  ctx.strokeStyle = 'rgba(255,255,255,.05)'; ctx.lineWidth = 1;
+  ctx.font = '10px JetBrains Mono'; ctx.fillStyle = 'rgba(255,255,255,.3)';
+  ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+  for(let e=-1; e >= -6; e--){
+    const p = d2c(0, e);
+    ctx.beginPath(); ctx.moveTo(PAD.left, p.y); ctx.lineTo(W-PAD.right, p.y); ctx.stroke();
+    ctx.fillText(e.toFixed(1), PAD.left-8, p.y);
+  }
+  ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+  for(let ep=0; ep <= 60; ep+=10){
+    const p = d2c(ep, 0);
+    ctx.beginPath(); ctx.moveTo(p.x, PAD.top); ctx.lineTo(p.x, H-PAD.bottom); ctx.stroke();
+    ctx.fillText(ep, p.x, H-PAD.bottom+8);
+  }
+  
+  // 2. Ground State
+  const pGs1 = d2c(0, DATA.target), pGs2 = d2c(DATA.epochMax, DATA.target);
+  ctx.save();
+  ctx.strokeStyle = 'rgba(255,209,102,.6)'; ctx.lineWidth = 1.5; ctx.setLineDash([6, 4]);
+  ctx.beginPath(); ctx.moveTo(pGs1.x, pGs1.y); ctx.lineTo(pGs2.x, pGs2.y); ctx.stroke();
+  ctx.fillStyle = 'rgba(255,209,102,.05)';
+  const tTop = d2c(0, DATA.target+0.1).y, tBot = d2c(0, DATA.target-0.1).y;
+  ctx.fillRect(PAD.left, tTop, W-PAD.left-PAD.right, tBot-tTop);
+  ctx.restore();
+  
+  // Se não tem dados, espera
+  if(chartData.epochs.length === 0) {
+      requestAnimationFrame(draw);
+      return;
+  }
+  
+  // 3. Render Amostras Quanticas Ruidosas (Dispersaos da Regressao)
+  ctx.save();
+  for(let i=0; i<chartData.epochs.length; i++){
+      const pQ = d2c(chartData.epochs[i], chartData.quantum[i]);
+      drawCross(pQ.x, pQ.y, 'rgba(184,158,255,0.7)');
+      
+      // Desenha as curtas linhas de residuo (Erro "e") entre o dado sujo e a previsao ajustada
+      const pC = d2c(chartData.epochs[i], chartData.classic[i]);
+      ctx.strokeStyle = 'rgba(255,255,255,0.08)'; ctx.setLineDash([2,2]); ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(pQ.x, pQ.y); ctx.lineTo(pC.x, pC.y); ctx.stroke();
+  }
+  ctx.restore();
+  
+  // 4. Render Linha Classica Ajustada (Predição da Regressao -> ŷ)
+  ctx.save();
+  ctx.strokeStyle = '#5596ff'; ctx.lineWidth = 2.5;
+  ctx.shadowColor = 'rgba(85,150,255,.5)'; ctx.shadowBlur = 10;
+  ctx.beginPath();
+  for(let i=0; i<chartData.epochs.length; i++){
+      const pC = d2c(chartData.epochs[i], chartData.classic[i]);
+      if(i===0) ctx.moveTo(pC.x, pC.y);
+      else {
+          // Curva suave
+          ctx.lineTo(pC.x, pC.y);
+      }
+      // Bolinha suave
+      ctx.fillStyle = '#6ff7c0';
+      ctx.fillRect(pC.x-1.5, pC.y-1.5, 3, 3);
+  }
+  ctx.stroke();
+  
+  // End tracker
+  const lastE = chartData.epochs.length-1;
+  const pEnd = d2c(chartData.epochs[lastE], chartData.classic[lastE]);
+  
+  // Flash effect on hit
+  let rad = 5;
+  if(flashTimer > 0) { rad += flashTimer*2; flashTimer -= 0.5; }
+  
+  ctx.beginPath(); ctx.arc(pEnd.x, pEnd.y, rad, 0, Math.PI*2);
+  ctx.fillStyle = (chartData.status === 'concluido/record') ? '#ffd166' : '#fff'; 
+  ctx.fill();
+  
+  ctx.restore();
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+
+function popUpdate(id, valStr, color){
+  const el = document.getElementById(id);
+  if(el.textContent !== valStr){
+    el.textContent = valStr;
+    el.classList.remove('pop'); void el.offsetWidth; el.classList.add('pop');
+    if(color) el.style.color = color;
+  }
+}
+
+// POLLING
+setInterval(async () => {
+  try {
+    const res = await fetch('live_v2.json?t=' + Date.now());
+    const data = await res.json();
+    
+    document.getElementById('connStatus').textContent = "Link " + data.status.toUpperCase();
+    document.getElementById('statusHint').textContent = "Conectado. Injecao de Pipeline...";
+    
+    if (data.epochs.length > 0) {
+       chartData.epochs = data.epochs;
+       chartData.quantum = data.quantum_raw;
+       chartData.classic = data.classical_pred;
+       chartData.status = data.status;
+       
+       const lastE = data.epochs.length-1;
+       const lastQ = data.quantum_raw[lastE];
+       const lastC = data.classical_pred[lastE];
+       
+       document.getElementById('lblEpoch').textContent = data.epochs[lastE];
+       popUpdate('valRaw', lastQ.toFixed(3));
+       popUpdate('valClassic', 'ŷ = '+lastC.toFixed(3));
+       
+       const delta = Math.abs(DATA.target - lastC);
+       popUpdate('errDelta', 'Δ ' + delta.toFixed(4));
+       
+       if (data.epochs.length > lastLoadedEpochs) {
+           flashTimer = 3; // Efeito da bolinha crescendo no canvas
+           lastLoadedEpochs = data.epochs.length;
+       }
+       
+       // Efeito UI para record
+       if(data.status === 'concluido/record'){
+           document.getElementById('recordCard').classList.add('record-pulse');
+           document.getElementById('convergenceStatus').textContent = "RECORDE DE ENERGIA ALCANÇADO!";
+           document.getElementById('convergenceStatus').style.color = "#ffd166";
+       } else {
+           document.getElementById('recordCard').classList.remove('record-pulse');
+           document.getElementById('convergenceStatus').textContent = "Mitigando Ruído e Otimizando...";
+           document.getElementById('convergenceStatus').style.color = "#5596ff";
+       }
+    }
+  } catch(e) { }
+}, 300);
+
+</script>
+</body>
+</html>

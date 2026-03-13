@@ -34,6 +34,18 @@ Este projeto nasce da intersecção entre a **Física Quântica Teórica** e a *
 
 Ao substituir abordagens de "força bruta" (ansatz linear e chutes aleatórios) por elementos geométricos elegantes fornecidos pela própria natureza — como a proporção da **Razão Áurea (Phi)** para distribuição inicial e a inquebrável estrutura topológica dos **Anéis de Borromeo** para emaranhamento de qubits — nós visamos criar um código mais rápido, mais barato de executar na IBM, e fundamentalmente mais eficiente.
 
+### Definição Base: Hardware-efficient VQE
+
+O objetivo principal do **Hardware-efficient Variational Quantum Eigensolver (VQE)**, ou Algoritmo Variacional de Autovalores com Eficiência de Hardware, é encontrar o estado de menor energia (estado fundamental ou *ground state*) de sistemas quânticos, como moléculas ou materiais, utilizando computadores quânticos da era atual (NISQ - *Noisy Intermediate-Scale Quantum*). 
+
+Os principais objetivos e características do VQE com ansatz eficiente de hardware são:
+- **Minimizar o Impacto do Ruído (NISQ):** Diferente de algoritmos quânticos teóricos que exigem circuitos muito longos, o VQE foca em circuitos de baixa profundidade. Isso reduz o número de portões quânticos, minimizando os erros causados pela decoerência e ruído inerentes aos computadores quânticos atuais.
+- **Aproveitar a Topologia do Hardware:** A estrutura do circuito (*ansatz*) é projetada para se adequar às interações nativas disponíveis no processador quântico (ex: Qubits de supercondutores), usando portões de emaranhamento que respeitam a topologia do chip para aumentar a eficiência da implementação.
+- **Abordagem Híbrida Quantum-Clássica:** O VQE usa o computador quântico para preparar o estado e calcular a energia, e um computador clássico para otimizar os parâmetros do circuito, tornando viável a simulação de sistemas complexos.
+- **Aplicações em Química Quântica e Física:** Visa calcular propriedades moleculares, energia de ligação e simular materiais, resolvendo problemas que seriam exponencialmente difíceis para computadores clássicos. 
+
+Em resumo, o VQE com "ansatz" eficiente de hardware é uma estratégia para viabilizar simulações úteis de química quântica em hardware quântico de curto prazo, focando na eficiência operacional sobre a profundidade do circuito.
+
 ---
 
 ## 📝 Resumo do Projeto
