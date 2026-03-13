@@ -35,10 +35,10 @@ Pesquisa na intersecção entre Física Quântica Teórica e Ciência de Dados A
 - **Status:** Em Desenvolvimento 🚜
 - **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, SciPy
 
-### 2. [Novo Projeto (Em Breve)](./novo-projeto/)
-Espaço reservado e configurado para abrigar a sua próxima pesquisa ou projeto acadêmico de forma completamente isolada do primeiro.
-- **Status:** Inicializando 🏗️
-- **Tecnologias:** A definir
+### 2. [Decodificação Cerebral com fMRI e Stable Diffusion](./fmri-brain-decoding/)
+Pesquisa focada na fronteira da visão computacional e neurociência. O projeto utiliza Machine Learning para traduzir atividade cerebral (sinais BOLD captados por ressonância magnética funcional) da visualização humana em representações no espaço latente (CLIP). Em seguida, injeta esses vetores de pensamento como *prompts* num Modelo de Difusão (Stable Diffusion) para reconstruir as imagens geradas pela mente.
+- **Status:** Estruturação Inicial / Levantamento de Datasets (NSD) 🧠
+- **Tecnologias:** Python, PyTorch, NiLearn, API Diffusers (HuggingFace), Scikit-learn
 
 ---
 
