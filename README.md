@@ -22,7 +22,7 @@
 
 ## 👨‍🔬 Equipe de Pesquisa
 - **Pesquisador:** Daniel A. Palma
-- **Orientador / Coordenador:** Prof. Dr. Matheus Brendon
+- **Orientador / Coordenador:** [Nome do Orientador]
 
 ---
 
