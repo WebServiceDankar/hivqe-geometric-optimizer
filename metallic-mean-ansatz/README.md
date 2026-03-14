@@ -6,7 +6,7 @@
 
 ---
 
-> **Aplicação Alvo:** Simulação Molecular de Repelentes para o Projeto **AedesTwin In-Silico**.
+> **Aplicação Alvo:** Simulação Quântica de Inibidores para a Metaloenzima **NDM-1** (Combate à Resistência Antimicrobiana).
 
 ## 🧬 A Tese: Topologia vs. Parametrização
 
@@ -25,7 +25,7 @@ Testamos diferentes "frequências" de parametrização aplicadas à estrutura fi
 | Constante (Parâmetro) | Nome | Comportamento no Ansatz Borromeano | Recomendação de Uso |
 | :--- | :--- | :--- | :--- |
 | **$\phi$ (Phi)** | Razão Áurea | **Estabilidade Estrutural.** O anel "segura" a energia com máxima fidelidade. | Estados que exigem proteção total (QKD). |
-| **$\delta_S$ (Delta)** | **Razão Prateada** | **Convergência Ótima.** A geometria do anel se abre para a solução rapidamente. | **Simulação Molecular (AedesTwin).** |
+| **$\delta_S$ (Delta)** | **Razão Prateada** | **Convergência Ótima.** A geometria do anel se abre para a solução rapidamente. | **Simulação Molecular de Metaloenzimas (NDM-1).** |
 | **$\rho$ (Rho)** | Número Plástico | **Expansão Controlada.** Permite adicionar mais anéis (escala) sem perder coerência. | Circuitos profundos / Machine Learning. |
 | **$e$** | Euler | **Dissipação Rápida.** Útil para simular sistemas onde a energia vaza naturalmente. | Física Estatística (Open Systems). |
 | **$\mathcal{L}$** | Liouville | **Instabilidade Caótica.** A estrutura Borromeana não suporta essa frequência e colapsa. | Teste de estresse / Limite teórico. |
@@ -43,8 +43,8 @@ O circuito é gerado dinamicamente:
     Portas $R_y(\theta)$ onde $\theta$ é definido pela Tabela acima.
     *   *Teste:* $\theta = \pi \times \delta_S$ (Prata).
     
-3.  **Aplicação (AedesTwin Integration):**
-    Calculamos a energia de ligação de moléculas repelentes. A estrutura Borromeana garante que o erro de medição de um qubit não destrua a simulação toda, enquanto a Razão Prateada garante que o resultado saia rápido.
+3.  **Aplicação (Simulação NDM-1):**
+    Calculamos a energia de ligação de moléculas inibidoras no sítio ativo do Zinco. A estrutura Borromeana garante que o erro de medição de um qubit não destrua a simulação toda, enquanto a Razão Prateada garante que o resultado saia rápido sem cair em barren plateaus.
 
 ---
 
@@ -53,4 +53,4 @@ O circuito é gerado dinamicamente:
 - [ ] Implementar o gerador de circuitos `BorromeanAnsatz` em Qiskit.
 - [ ] Rodar o benchmark M²QA (Áurea vs Prata) em simuladores.
 - [ ] Validar a hipótese de que Razão Prateada + Topologia Borromeana = Menos Barren Plateaus.
-- [ ] Gerar dados de energia para o projeto **AedesTwin**.
+- [ ] Gerar dados de energia para o sítio ativo da **NDM-1**.

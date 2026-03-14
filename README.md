@@ -31,9 +31,9 @@ Este repositório foi estruturado como um **Monorepo** para agregar múltiplos p
 Abaixo estão listados os projetos atuais abrigados neste repositório. Clique no nome do projeto para acessar os seus respectivos códigos, documentações e instruções.
 
 ### 1. [Project M²QA: Metallic Mean Quantum Ansatz](./metallic-mean-ansatz/)
-Investigação da sinergia entre Topologia Quântica e Teoria dos Números. O projeto propõe um Ansatz híbrido inédito que casa a robustez da **Topologia Borromeana** (estrutura três-partida que protege contra decoerência e ruídos locais) com a eficiência de parametrizações baseadas em **Médias Metálicas** (como a Razão Prateada). Seu principal caso de uso atual (Digital Twin) aplica esta abordagem na simulação *in-silico* de moléculas repelentes do *Aedes*.
-- **Status:** Validação da Hipótese: Topologia Borromeana + Razão Prateada ($\delta_{S}$) 📐
-- **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, Brian2, SciPy
+Investigação da sinergia entre Topologia Quântica e Teoria dos Números. O projeto propõe um Ansatz híbrido inédito que casa a robustez da **Topologia Borromeana** (estrutura três-partida que protege contra decoerência e ruídos locais) com a eficiência de parametrizações baseadas em **Médias Metálicas** (como a Razão Prateada). Seu principal caso de uso atual aplica esta abordagem na simulação do sítio ativo fortemente correlacionado (di-Zinco) da metaloenzima **NDM-1** para a descoberta de inibidores contra superbactérias.
+- **Status:** Validação da Hipótese: Topologia Borromeana + Razão Prateada ($\delta_{S}$) na Simulação de Metaloenzimas 📐
+- **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, PySCF, SciPy
 
 ### 2. [Decodificação Cerebral com fMRI e Stable Diffusion](./fmri-brain-decoding/)
 Pesquisa focada na fronteira da visão computacional e neurociência. O projeto utiliza Machine Learning para traduzir atividade cerebral (sinais BOLD captados por ressonância magnética funcional) da visualização humana em representações no espaço latente (CLIP). Em seguida, injeta esses vetores de pensamento como *prompts* num Modelo de Difusão (Stable Diffusion) para reconstruir as imagens geradas pela mente.
