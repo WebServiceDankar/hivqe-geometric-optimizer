@@ -14,10 +14,10 @@ $headers = @{
     "Accept"        = "application/vnd.github.v3+json"
 }
 
-# 1. Definindo o novo Nome do Repositório e a Descrição Principal
-# Escolhi um nome que reflete o Monorepo e as pesquisas acadêmicas!
-$novoNome = "unifei-pesquisas-aplicadas"
-$novaDescricao = "Monorepo de Pesquisas: Project M²QA (Topologia Quântica), Decodificação Cerebral (fMRI) e AedesTwin In-Silico (UNIFEI - Ciência de Dados Aplicada)"
+# 1. Definindo o Nome do Repositório e a Descrição Principal
+# O usuário optou por manter a tradição do nome e a descrição com foco no VQE e Razão Áurea!
+$novoNome = "hivqe-geometric-optimizer"
+$novaDescricao = "Pesquisa: Otimizacao Topologica de VQE via Razao Aurea e Aneis de Borromeo (UNIFEI - Ciencia de Dados Aplicada)"
 
 $bodyRepo = @{
     name = $novoNome
