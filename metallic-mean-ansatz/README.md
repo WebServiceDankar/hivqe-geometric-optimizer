@@ -6,6 +6,8 @@
 
 ---
 
+> **Aplicação Alvo:** Simulação Molecular de Repelentes para o Projeto **AedesTwin In-Silico**.
+
 ## 🧬 A Tese: Topologia vs. Parametrização
 
 Este projeto investiga a sinergia entre **Topologia Quântica** e **Teoria dos Números** para resolver o problema da convergência em VQEs (Variational Quantum Eigensolvers).
