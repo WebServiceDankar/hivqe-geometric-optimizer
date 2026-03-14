@@ -30,10 +30,10 @@ Este repositório foi estruturado como um **Monorepo** para agregar múltiplos p
 
 Abaixo estão listados os projetos atuais abrigados neste repositório. Clique no nome do projeto para acessar os seus respectivos códigos, documentações e instruções.
 
-### 1. [HiVQE - Otimização Geométrica](./projeto-hivqe/)
-Pesquisa na intersecção entre Física Quântica Teórica e Ciência de Dados Aplicada. O projeto visa acelerar a convergência de simuladores moleculares no VQE substituindo abordagens de força bruta por topologias geométricas eficientes (inspiradas em Anéis de Borromeo e Razão Áurea) para otimizar a convergência de Hamiltonianos moleculares em dispositivos NISQ.
-- **Status:** Em Desenvolvimento 🚜
-- **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, SciPy
+### 1. [Metallic Mean Ansatz (MMA)](./metallic-mean-ansatz/)
+Investigação de Razões Irracionais em Otimização Quântica Geométrica. O projeto propõe um estudo inédito sobre a influência de constantes matemáticas (como a Razão Prateada) na arquitetura de Ansatzes Quânticos. Seu principal caso de uso (Digital Twin) foca na simulação *in-silico* de moléculas repelentes do Aedes.
+- **Status:** Fusão Estrutural (HiVQE + AedesTwin) / Otimização baseada em Razão Prateada ($\delta_{S}$) 📐
+- **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, Brian2, SciPy
 
 ### 2. [Decodificação Cerebral com fMRI e Stable Diffusion](./fmri-brain-decoding/)
 Pesquisa focada na fronteira da visão computacional e neurociência. O projeto utiliza Machine Learning para traduzir atividade cerebral (sinais BOLD captados por ressonância magnética funcional) da visualização humana em representações no espaço latente (CLIP). Em seguida, injeta esses vetores de pensamento como *prompts* num Modelo de Difusão (Stable Diffusion) para reconstruir as imagens geradas pela mente.
@@ -44,11 +44,6 @@ Pesquisa focada na fronteira da visão computacional e neurociência. O projeto 
 Sistema híbrido quantum-clássico desenhado para explorar o espaço de *pre-images* em funções hash seguras (SHA-256). A abordagem utiliza circuitos quânticos customizados integrados a um motor de mutação clássico para reduzir exponencialmente o espaço de busca, com testes e mitigação de erros validados na QPU IBM Torino.
 - **Status:** Validação de Pre-images / Benchmark no IBM Torino 🔐
 - **Tecnologias:** Python, Qiskit, IBM Quantum Runtime, Cryptanalysis
-
-### 4. [AedesTwin In-Silico](./aedes-twin-insilico/)
-Digital Twin de conectomas de insetos para erradicação de vetores da Dengue. Um projeto de Ciência de Dados Aplicada focando em processamento de Grafos Neurais e Spiking Neural Networks (SNN).
-- **Status:** Arquitetura Estrutural baseada em Metodologias Rigorosas e TDD (Test-Driven Development) 🦟
-- **Tecnologias:** Python, Brian2/NEST, NetworkX, FastAPI, Pytest
 
 ---
 
