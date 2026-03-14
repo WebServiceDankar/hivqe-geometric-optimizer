@@ -33,6 +33,10 @@ Abaixo estão listados os projetos atuais abrigados neste repositório. Clique n
 ### 1. [Project M²QA: Metallic Mean Quantum Ansatz](./metallic-mean-ansatz/)
 Investigação da sinergia entre Topologia Quântica e Teoria dos Números. O projeto propõe um Ansatz híbrido inédito que casa a robustez da **Topologia Borromeana** (estrutura três-partida que protege contra decoerência e ruídos locais) com a eficiência de parametrizações baseadas em **Médias Metálicas** (como a Razão Prateada). Seu principal caso de uso atual aplica esta abordagem na simulação do sítio ativo fortemente correlacionado (di-Zinco) da metaloenzima **NDM-1** para a descoberta de inibidores contra superbactérias.
 - **Status:** Validação da Hipótese: Topologia Borromeana + Razão Prateada ($\delta_{S}$) na Simulação de Metaloenzimas 📐
+- **Documentos Recentes:**
+  - 📄 **[Projeto de Iniciação Científica (IC) - NDM-1](./metallic-mean-ansatz/docs/PROJETO_IC_NDM1.md)**
+  - 📄 **[Draft do Artigo: M²QA Paper](./metallic-mean-ansatz/docs/M2QA_PAPER_DRAFT.md)**
+  - 🖼️ **[Diagrama da Arquitetura Híbrida M²QA](./metallic-mean-ansatz/docs/arquitetura.png)**
 - **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, PySCF, SciPy
 
 ### 2. [Decodificação Cerebral com fMRI e Stable Diffusion](./fmri-brain-decoding/)
