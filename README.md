@@ -30,9 +30,9 @@ Este repositório foi estruturado como um **Monorepo** para agregar múltiplos p
 
 Abaixo estão listados os projetos atuais abrigados neste repositório. Clique no nome do projeto para acessar os seus respectivos códigos, documentações e instruções.
 
-### 1. [Metallic Mean Ansatz (MMA)](./metallic-mean-ansatz/)
-Investigação de Razões Irracionais em Otimização Quântica Geométrica. O projeto propõe um estudo inédito sobre a influência de constantes matemáticas (como a Razão Prateada) na arquitetura de Ansatzes Quânticos. Seu principal caso de uso (Digital Twin) foca na simulação *in-silico* de moléculas repelentes do Aedes.
-- **Status:** Fusão Estrutural (HiVQE + AedesTwin) / Otimização baseada em Razão Prateada ($\delta_{S}$) 📐
+### 1. [Project M²QA: Metallic Mean Quantum Ansatz](./metallic-mean-ansatz/)
+Investigação da sinergia entre Topologia Quântica e Teoria dos Números. O projeto propõe um Ansatz híbrido inédito que casa a robustez da **Topologia Borromeana** (estrutura três-partida que protege contra decoerência e ruídos locais) com a eficiência de parametrizações baseadas em **Médias Metálicas** (como a Razão Prateada). Seu principal caso de uso atual (Digital Twin) aplica esta abordagem na simulação *in-silico* de moléculas repelentes do *Aedes*.
+- **Status:** Validação da Hipótese: Topologia Borromeana + Razão Prateada ($\delta_{S}$) 📐
 - **Tecnologias:** Python, Qiskit, NVIDIA CUDA-Q, Brian2, SciPy
 
 ### 2. [Decodificação Cerebral com fMRI e Stable Diffusion](./fmri-brain-decoding/)
