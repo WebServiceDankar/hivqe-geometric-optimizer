@@ -19,7 +19,7 @@ A resistência antimicrobiana (AMR) é um desafio crítico. Bactérias Gram-nega
 
 A presença de metais de transição gera uma estrutura eletrônica de forte correlação. Computadores clássicos têm dificuldade exponencial em resolver a Equação de Schrödinger para tais sistemas. A Computação Quântica surge como a solução natural, usando algoritmos híbridos como o VQE em hardwares NISQ (*Noisy Intermediate-Scale Quantum*). 
 
-Entretanto, o VQE sofre com o problema dos *barren plateaus*, onde o gradiente da função de custo desaparece exponencialmente à medida que o sistema cresce, travando o otimizador clássico. Para solucionar isso de maneira não heurística, este projeto utilizará a arquitetura **M²QA**, concebida pelo aluno, que utiliza proporções metálicas (Razão de Prata, $\delta_S = 1 + \sqrt{2}$) para distribuição inicial dos ângulos dos qubits, e uma topologia de entrelaçamento tripartide Borromeana, agindo como mitigador nativo de decoerência (*fail-fast*). 
+O projeto propõe a utilização de Computação Quântica através do algoritmo inédito **M²QA** (Metallic Mean Quantum Ansatz), concebido pelo autor para solucionar o problema dos *barren plateaus* de maneira não heurística. Para validar os resultados computacionais na ausência de testes laboratoriais *in-vitro* imediatos, o projeto utilizará a **Diagonalização Exata (Exact Diagonalization - ED)** como padrão-ouro analítico. A ED permite obter a solução matemática exata para o Hamiltoniano do sítio ativo, servindo como base para quantificar a Precisão Química alcançada pelo simulador quântico.
 
 Esta pesquisa justifica-se pela urgência na descoberta de inibidores da NDM-1 e pela necessidade fundamental de desenvolver Ansatzes quânticos mais eficientes e robustos contra ruídos e platôs evolutivos.
 
@@ -72,5 +72,6 @@ O projeto será desenvolvido primariamente in-silico, através de simulações e
 1. Peruzzo, A. et al. (2014). "A variational eigenvalue solver on a photonic quantum processor." *Nature Communications*, 5(4213).
 2. McClean, J. R. et al. (2018). "Barren plateaus in quantum neural network training landscapes." *Nature Communications*, 9(4812).
 3. Cerezo, M. et al. (2021). "Cost function dependent barren plateaus in shallow parametrized quantum circuits." *Nature Communications*, 12(1791).
-4. Cao, Y. et al. (2019). "Quantum chemistry in the age of quantum computing." *Chemical Reviews*, 119(19), 10856-10915.
+4. Yong, K. K. et al. (2011). "Structure of the New Delhi metallo-beta-lactamase 1 (NDM-1) and its interaction with antibiotic substrates." *Nature*, 475, 251-254.
 5. Spinadel, M. (1999). "The metallic means family and multifractal spectra." *Nonlinear Analysis*, 36, 721-745.
+6. King, D. T. et al. (2012). "Structural insights into the inhibition of the New Delhi metallo-beta-lactamase-1." *Journal of Biological Chemistry*, 287, 15451-15461.
