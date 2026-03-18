@@ -24,17 +24,19 @@ metallic-mean-ansatz/
 │   ├── test_active_site.py
 │   ├── test_m2qa_ansatz.py # TDD para o Ansatz (A IMPLEMENTAR)
 ├── docs/
-│   ├── PROJETO_IC_NDM1.md  # Documento de IC Acadêmico
-│   └── M2QA_PAPER_DRAFT.md # Draft do Artigo Científico
+│   ├── PROJETO_IC_NDM1.md    # Documento de IC Acadêmico
+│   ├── M2QA_PAPER_DRAFT.md   # Draft do Artigo Científico
+│   └── M2QA_TECHNICAL_SPEC.md # Spec Técnica e Fundamentação Teórica (NOVO)
 ```
 
 ## 📜 Regras de Negócio & Design
-1. **Anti-Vibe:** Proibida implementação de circuitos sem testes unitários de fidelidade e profundidade.
-2. **Borromean Topology:** Entrelacamento tripartite cíclico (0->1, 1->2, 2->0). Deve ser detectável via colapso de estado.
-3. **Metallic Initialization:** Ângulos iniciais fixos baseados em $\theta_k = \pi / \delta_S^k$, onde $\delta_S = 1 + \sqrt{2}$. **Proibido `random.uniform`**.
-4. **Validação ED:** Todo resultado VQE deve ser comparado com o valor de `get_exact_energy()` do `ndm1_active_site.py`.
+1. **Anti-Vibe:** Proibida implementação de circuitos sem testes unitários. Resultados devem ser tratados como hipóteses até validação por ED.
+2. **Borromean Topology:** Entrelacamento tripartite cíclico. Definição formal em `M2QA_TECHNICAL_SPEC.md`.
+3. **Metallic Initialization:** Uso obrigatório da Razão de Prata ($\delta_S$) para quebra de simetria e fuga de BP (Barren Plateaus).
+4. **Validação ED:** O padrão-ouro é a Diagonalização Exata. Precisão Química alvo: < 1.6 mHa.
 
 ## 🚀 Estado Atual
-- ✅ Hamiltoniano NDM-1 estruturado (Mock/PySCF ready).
-- ✅ Ground Truth via ED implementado.
-- 🚧 Próximo Passo: TDD do `m2qa_ansatz.py`.
+- ✅ Hamiltoniano NDM-1 estruturado.
+- ✅ Ground Truth via ED implementado no código.
+- ✅ Documentação técnica detalhada (Theory & Specs) criada para o professor.
+- 🚧 Próximo Passo: Benchmark empírico comparando M²QA vs HEA (Random) para provar a hipótese de BP.

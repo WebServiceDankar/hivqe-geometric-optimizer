@@ -33,8 +33,8 @@ Implementar, testar e avaliar a eficácia do algoritmo híbrido M²QA (Metallic 
 ### 2.2 Objetivos Específicos
 1. **Modelagem do Hamiltoniano:** Reduzir o sítio ativo bimetálico da NDM-1 para um espaço ativo tratável (e.g., 6 a 12 qubits) e mapear os operadores fermiônicos para operadores de spin de Pauli.
 2. **Implementação do Algoritmo M²QA:** Codificar o VQE utilizando a topologia de portas lógicas Borromeanas e a rotina de inicialização matemática da Razão de Prata.
-3. **Benchmarking:** Comparar a velocidade de convergência e a precisão do M²QA contra inicializações convencionais (Randômica) e a Razão Áurea, analisando a variância dos gradientes.
-4. **Cálculo da Energia de Ligação ($\Delta E$):** Determinar a afinidade de compostos inibidores modelo (como derivados de Captopril) e comparar os resultados com métodos de Diagonalização Exata (ED).
+3. **Benchmarking de Convergência:** Avaliar a velocidade de convergência e a resiliência a platôs áridos do M²QA comparado a ansatzes de hardware convencionais (HEA com inicialização randômica).
+4. **Cálculo da Energia de Ligação ($\Delta E$):** Determinar a afinidade de compostos inibidores modelo (como derivados de Captopril) e validar a convergência do algoritmo para o limite de precisão química ($< 1.6 \times 10^{-3}$ Hartree) através de Diagonalização Exata (ED).
 
 ---
 
@@ -67,7 +67,15 @@ O projeto será desenvolvido primariamente in-silico, através de simulações e
 
 ---
 
-## 5. Referências Bibliográficas Preliminares
+## 5. Hipóteses de Validação e Critérios de Sucesso
+
+O sucesso científico deste projeto será medido pela validação da hipótese de que a inicialização via Razão de Prata mitiga o problema dos *barren plateaus*. Os seguintes marcos técnicos são esperados:
+
+1. **Eficiência de Otimização:** O M²QA deve apresentar gradientes não-nulos em profundidades onde o HEA convencional já apresenta decaimento exponencial.
+2. **Precisão Química:** O erro absoluto em relação à Diagonalização Exata deve ser inferior a **1.6 mHa** para o estado fundamental do sistema bimetálico.
+3. **Robustez ao Ruído:** A topologia Borromeana deve demonstrar maior estabilidade em hardware quântico real frente a erros locais de decoerência.
+
+## 6. Referências Bibliográficas Reais e Verificadas
 
 1. Peruzzo, A. et al. (2014). "A variational eigenvalue solver on a photonic quantum processor." *Nature Communications*, 5(4213).
 2. McClean, J. R. et al. (2018). "Barren plateaus in quantum neural network training landscapes." *Nature Communications*, 9(4812).

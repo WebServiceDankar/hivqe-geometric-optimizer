@@ -129,48 +129,27 @@ Each configuration is evaluated over 30 independent runs with up to 5,000 VQE it
 
 ---
 
-## 4. Projected Results and Benchmarking Targets
+## 4. Proposed Benchmarking Protocol and Validation Hypotheses
 
-*Note: The results presented in this section represent the projected performance goals and benchmarking targets for the proposed IC project. These metrics serve as the baseline against which the actual experimental implementation of M²QA will be measured.*
+This section outlines the experimental protocol to be executed during the project. Our primary objective is to quantitatively test the effectiveness of M²QA against established standard benchmarks.
 
-### 4.1 Convergence Analysis Targets
+### 4.1 Convergence Hypothesis
+We hypothesize that M²QA will achieve convergence (defined as an energy error within 1 mHa for 10 consecutive iterations) significantly faster than randomly initialized Hardware-Efficient Ansatzes (HEA). 
 
-*Table 1. Projected VQE convergence performance across parameterization strategies (6-qubit Borromean Ansatz, H₂O/NDM-1 Hamiltonian, 30-run target).*
+**Benchmarking Metrics:**
+- **Optimization Trace:** Number of circuit evaluations to reach target error.
+- **Gradient Norm Variance ($\text{Var}[\nabla C]$):** Measured at varying depths to detect the absence of barren plateaus.
+- **Silver vs. Golden Performance:** A systematic comparison using irrational constants to determine if the larger step-size of the Silver Ratio ($\delta_S$) offers a measurable advantage over the Golden Ratio ($\phi$).
 
-| Strategy | Iterations (median) | Fidelity $\mathcal{F}$ (%) | $\text{Var}[\nabla C]$ (epoch 1) | $\text{Var}[\nabla C]$ (epoch 100) |
-| :--- | :---: | :---: | :---: | :---: |
-| Random | > 5,800 (DNF) | 32.4 ± 8.1 | $4.2 \times 10^{-1}$ | $< 10^{-7}$ (plateau) |
-| Golden ($\phi$) | 1,350 | 99.9 ± 0.1 | $3.8 \times 10^{-1}$ | $1.2 \times 10^{-2}$ |
-| **Silver ($\delta_S$)** | **450** | **97.8 ± 0.4** | $3.9 \times 10^{-1}$ | $5.7 \times 10^{-2}$ |
-| Bronze ($\rho$) | 820 | 96.1 ± 1.2 | $3.7 \times 10^{-1}$ | $3.4 \times 10^{-2}$ |
-| Euler ($e$) | 1,100 | 94.3 ± 2.0 | $4.0 \times 10^{-1}$ | $2.1 \times 10^{-2}$ |
+### 4.2 Accuracy Target: Exact Diagonalization (ED)
+The ultimate validation for our NDM-1 active site simulation will be the comparison against **Exact Diagonalization (ED)**. This provides the absolute ground-truth energy for the reduced Hamiltonian.
 
-The Silver Ratio achieves convergence in $3\times$ fewer iterations than the Golden Ratio and $>12\times$ fewer than random initialization. Notably, random initialization exhibits catastrophic gradient collapse by epoch 100 ($\text{Var}[\nabla C] < 10^{-7}$), confirming barren plateau onset. All Metallic Mean strategies maintain non-vanishing gradients, with Silver showing the highest residual variance — indicating sustained exploratory capacity.
+**Success Criteria:**
+- **Chemical Accuracy Limit:** $\Delta E_{bind} < 1.6 \text{ mHa}$.
+- **State Fidelity:** Overlap with the exact ground state eigenvector $\mathcal{F} > 0.99$.
 
-### 4.2 Topology Comparison Targets
-
-*Table 2. Projected effect of entanglement topology (Silver Ratio parameterization fixed).*
-
-| Topology | Iterations | Fidelity (%) | Single-qubit error tolerance |
-| :--- | :---: | :---: | :--- |
-| Linear chain | 900 | 95.2 ± 1.8 | Partial state preservation |
-| All-to-all | 600 | 96.5 ± 1.1 | Graceful degradation |
-| **Borromean** | **450** | **97.8 ± 0.4** | **Complete state collapse (fail-fast)** |
-
-The Borromean topology achieves the highest fidelity despite — and arguably because of — its all-or-nothing decoherence behavior. By collapsing the entire state upon local error, it prevents the optimizer from training on corrupted (partially decohered) data, functioning as an implicit error detection mechanism.
-
-### 4.3 NDM-1 Inhibitor Validation Targets
-
-We aim to evaluate the M²QA performance in approximating the ground state energy $E_0$ of the simulated di-zinc active site complex, comparing the error relative to Exact Diagonalization (ED) as the analytical truth model. Achieving chemical accuracy ($< 1.6 \times 10^{-3}$ Ha) is the primary target for reliable drug binding predictions.
-
-| Compute Method / Ansatz | VQE Epochs | Relative Error vs ED ($\Delta E$) | Interpretation |
-| :--- | :---: | :---: | :--- |
-| Classical (Hartree-Fock) | N/A | $145.0$ mHa | Fails due to strong correlation |
-| VQE (Random) | Diverged | N/A | Optimizer trapped in barren plateau |
-| VQE (Golden) | 1,350 | $12.4$ mHa | Useful, but short of chemical accuracy |
-| **VQE (Silver M²QA)** | **450** | **$1.1$ mHa** | **Achieves chemical accuracy** |
-
-The Silver Ratio parameterization with Borromean topology uniquely converges to within the threshold of chemical accuracy. We hypothesize that the structural constraint of Borromean entanglement maps efficiently to the highly correlated multi-reference nature of the bi-metallic interactions, enabling a more precise geometric fit of the energy landscape than generic hardware-efficient Ansatzes.
+### 4.3 Resilience to Noise
+Using the NVIDIA CUDA-Q noise models (depolarizing and amplitude damping), we will simulate the Borromean topology to test its "fail-fast" property, comparing its error mitigation capacity against basic local connectivity.
 
 ---
 
